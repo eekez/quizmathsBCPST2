@@ -1,0 +1,122 @@
+[
+  {
+    "question": "Parmi ces propositions, lesquelles impliquent que $f$ est forcément dérivable en 0 ?",
+    "options": [
+      "$f$ est continue en 0",
+      "$f$ admet un $\\text{DL}_1$ en 0",
+      "$f$ est la réciproque d'une fonction dérivable en 0",
+      "$f$ est de classe $\\mathscr{C}^1$ en 0."
+    ],
+    "reponse": [
+      "$f$ admet un $\\text{DL}_1$ en 0",
+      "$f$ est de classe $\\mathscr{C}^1$ en 0."
+    ],
+    "explications_fautes": {
+      "$f$ est continue en 0": "Être dérivable en un point implique d'être continu, mais la réciproque est fausse.",
+      "$f$ est la réciproque d'une fonction dérivable en 0": "Ce n'est pas suffisant : il faut aussi que la fonction soit bijective et que la dérivée ne s'annule pas."
+    }
+  },
+  {
+    "question": "Préciser quel est le bon développement limité parmi les suivants.",
+    "options": [
+      "$\\ln(x) = x - \\dfrac{x^2}{2} +  \\underset{x \\to 0}{\\circ}(x^2) $",
+      "$\\cos(x) = x - \\dfrac{x^3}{6} + \\underset{x \\to 0}{\\circ}(x^3) $",
+      "$\\exp(x) = 1 + x + \\dfrac{x^2}{2} + \\dfrac{x^3}{3} + \\dfrac{x^4}{4} + \\underset{x \\to 0}{\\circ}(x^4)$",
+      "$\\dfrac{1}{1 + x} = 1 - x + \\dfrac{x^2}{2} + \\underset{x \\to 0}{\\circ}(x^2)$"
+    ],
+    "reponse": "$\\dfrac{1}{1 + x} = 1 - x + \\dfrac{x^2}{2} + \\underset{x \\to 0}{\\circ}(x^2)$",
+    "explications_fautes": {
+      "$\\ln(x) = x - \\dfrac{x^2}{2} +  \\underset{x \\to 0}{\\circ}(x^2) $": "C'est le DL de $\\ln(1+x)$ en 0",
+      "$\\exp(x) = 1 + x + \\dfrac{x^2}{2} + \\dfrac{x^3}{3} + \\dfrac{x^4}{4} + \\underset{x \\to 0}{\\circ}(x^4)$": "Il manque les factorielles au dénominateur.",
+      "$\\cos(x) = x - \\dfrac{x^3}{6} + \\underset{x \\to 0}{\\circ}(x^3) $": "C'est le DL de $\\sin(x)$ en 0"
+    }
+    },
+    {
+    "question": "Le théorème des accroissements finis permet :",
+    "options": [
+      "d'obtenir des inégalités entre expressions",
+      "d'étudier des suites récurrentes",
+      "de montrer qu'une fonction s'annule une, et une seule fois",
+      "de montrer qu'une fonction est bien dérivable"
+    ],
+    "reponse": ["d'obtenir des inégalités entre expressions","d'étudier des suites récurrentes"],
+    "explications_fautes": {
+      "de montrer qu'une fonction s'annule une, et une seule fois": "Non, c'est le théorème de la bijection, par exemple, qui permet d'obtenir un tel résultat.",
+      "de montrer qu'une fonction est bien dérivable": "Non ! C'est même une hypothèse du théorème !"
+    }  },
+        {
+    "question": "On souhaite montrer qu'une fonction dérivable sur un intervalle $[a;b]$ est strictement croissante. Que peut-on faire ?",
+    "options": [
+      "On montre que $f'$ est strictement positive sur $[a;b]$.",
+      "On montre que la limite de $f$ en $a$ est strictement plus petite que la limite de $f$ en $b$.",
+      "On montre que $f'$ est positive et qu'elle ne s'annule qu'un nombre fini de fois sur $[a;b]$.",
+      "On montre que $f'$ est strictement croissante sur $[a;b]$"
+    ],
+    "reponse": ["On montre que $f'$ est strictement positive sur $[a;b]$.","On montre que $f'$ est positive et qu'elle ne s'annule qu'un nombre fini de fois sur $[a;b]$."],
+    "explications_fautes": {
+       "On montre que la limite de $f$ en $a$ est strictement plus petite que la limite de $f$ en $b$ ": "Les limites ne donnent aucune information directe sur le sens de variation d'une fonction",
+      "On montre que $f'$ est strictement croissante sur $[a;b]$": "Pour étudier le sens de variation d'une fonction sur un intervalle, c'est le signe de sa dérivée qui nous intéresse."
+    }  },
+          {
+    "question": "On suppose que $f$ est dérivable sur $[0;1]$. Je souhaite montrer que $f$ est positive sur $[0;1]$. Cocher le ou les scénarii qui permet d'arriver à cette conclusion :",
+    "options": ["Je dérive $f$, je montre que $f'$ est positive sur $[0;1]$ et je montre que $f(0) \\geqslant 0$.",
+      "Je prends quelques valeurs de $f$ sur $[0,1]$ et je vérifie qu'elles sont bien positives.",
+      "Je calcule les limites de $f$ en $0$ et $1$ et vérifie qu'elles sont toutes les deux positives.",
+      "Je prends $x \\in [0,1]$ et montre que $f(x) \\geqslant 0$ est toujours vérifiée dans ce cas. "
+    ],
+    "reponse": ["Je dérive $f$, je montre que $f'$ est positive sur $[0;1]$ et je montre que $f(0) \\geqslant 0$.","Je prends $x \\in [0,1]$ et montre que $f(x) \\geqslant 0$ est toujours vérifiée dans ce cas. "],
+    "explications_fautes": {
+       "Je prends quelques valeurs de $f$ sur $[0,1]$ et je vérifie qu'elles sont bien positives." : "Trouver quelques valeurs positives ne veut pas dire que $f$ est toujours positve sur $[0;1]$ ",
+      "Je calcule les limites de $f$ en $0$ et $1$ et vérifie qu'elles sont toutes les deux positives.": "Les limites ne donnent pas le signe de $f$ "
+    }  },
+              {
+    "question": "Soit $f$ une fonction continue sur $\\mathbb{R}_+^*$. Pour montrer que $f$ admet un prolongement continu de $f$ en 0, je dois montrer que :",
+    "options": [
+      "$f$ est dérivable sur $\\mathbb{R}_+^*$",
+      "$f$ admet une limite, finie, en 0.",
+      "$f$ admet une asymptote verticale en 0.",
+      "$f$ est de classe $\\mathscr{C}^1$ sur $\\mathbb{R}_+^*$"
+    ],
+    "reponse": "$f$ admet une limite, finie, en 0.",
+    "explications_fautes": {
+       "$f$ admet une asymptote verticale en 0." : "C'est le contraire ! Pour que $f$ admette un prolongement continu en 0, il faut que $f$ n'admette pas d'asymptote verticale en 0. ",
+      "$f$ est dérivable sur $\\mathbb{R}_+^*$": "Un prolongement par continuité n'a aucun lien direct avec la dérivabilité d'une fonction. "
+    }  },
+     {
+    "question": "Si $f$ est une fonction dérivable sur $\\mathbb{R}$ telle que $f'(0) = 0$, alors $f$ admet un maximum ou minimum en 0.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "reponse": "Faux",
+    "explications_fautes": {
+       "Vrai" : "La fonction cube admet une dérivée qui vaut 0 en 0, et pourtant la fonction cube n'admet pas de maximum/minimum en 0."
+    } },
+         {
+    "question": "Rappeler quelles sont les propositions suivantes qui apparaissent dans la conclusion du théorème de la bijection ",
+    "options":  [
+      "$f^{-1}$ est continue sur $f(I)$.",
+      "$f^{-1}$ a le même sens de variation que $f$.",
+      "$f$ est bijective.",
+      "$f$ admet une unique solution."
+    ],
+    "reponse": ["$f^{-1}$ est continue sur $f(I)$.","$f^{-1}$ a le même sens de variation que $f$.","$f$ est bijective"],
+    "explications_fautes": {
+       "$f$ admet une unique solution" : "Cette phrase ne veut rien dire ! Une fonction n'admet pas de solution."
+    } },
+             {
+    "question": "Rappeler quelles sont les propositions suivantes qui apparaissent dans la conclusion du théorème de la bijection ",
+    "options":  [
+      "$f^{-1}$ est continue sur $f(I)$.",
+      "$f^{-1}$ a le même sens de variation que $f$.",
+      "$f$ est bijective.",
+      "$f$ admet une unique solution."
+    ],
+    "reponse": ["$f^{-1}$ est continue sur $f(I)$.","$f^{-1}$ a le même sens de variation que $f$.","$f$ est bijective"],
+    "explications_fautes": {
+       "$f$ admet une unique solution" : "Cette phrase ne veut rien dire ! Une fonction n'admet pas de solution."
+    } }
+    
+
+
+]
