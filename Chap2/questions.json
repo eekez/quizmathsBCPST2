@@ -103,18 +103,6 @@
     "reponse": ["$f^{-1}$ est continue sur $f(I)$.","$f^{-1}$ a le même sens de variation que $f$.","$f$ est bijective"],
     "explications_fautes": {
        "$f$ admet une unique solution" : "Cette phrase ne veut rien dire ! Une fonction n'admet pas de solution."
-    } },
-             {
-    "question": "Rappeler quelles sont les propositions suivantes qui apparaissent dans la conclusion du théorème de la bijection ",
-    "options":  [
-      "$f^{-1}$ est continue sur $f(I)$.",
-      "$f^{-1}$ a le même sens de variation que $f$.",
-      "$f$ est bijective.",
-      "$f$ admet une unique solution."
-    ],
-    "reponse": ["$f^{-1}$ est continue sur $f(I)$.","$f^{-1}$ a le même sens de variation que $f$.","$f$ est bijective"],
-    "explications_fautes": {
-       "$f$ admet une unique solution" : "Cette phrase ne veut rien dire ! Une fonction n'admet pas de solution."
     } }
     
 
