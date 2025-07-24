@@ -1,0 +1,74 @@
+[
+  {
+    "question": "Une suite qui ne converge pas tend vers $+\\infty$ ou $-\\infty$." ,
+     "options": ["Vrai","Faux"] , 
+     "reponse": "Faux" ,
+     "explications_fautes": {"Vrai" : "Non ! Certaines suites n'ont juste pas de limites du tout. Par exemple, $u_n = (-1)^n$"} 
+  
+},
+{
+    "question": "Si $(u_{2n})$ et $(u_{2n+1})$ convergent, alors $(u_n)$ converge.",
+      "options": ["Vrai","Faux"],
+      "reponse": "Faux",
+      "explications_fautes": {"Vrai" : "Contre-exemple : $u_n = (-1)^n$"} 
+},
+{
+     "question": "Seule une des méthodes suivantes permet d'affirmer que $(u_n)$ converge. Laquelle ?",
+      "options": ["On montre que $(u_{2n})$ et $(u_{2n + 1})$ sont des suites adjacentes","On étudie le signe de $u_{n+ 1} - u_n$ pour tout $n \\in \\mathbb{N}$.","On montre que $(u_n)$ est bornée","On calcule quelques valeurs de la suite, et on constate qu'elle semble se rapprocher d'une valeur"],
+      "reponse": "On montre que $(u_{2n})$ et $(u_{2n + 1})$ sont des suites adjacentes",
+      "explications_fautes":  {
+      "On étudie le signe de $u_{n+ 1} - u_n$ pour tout $n \\in \\mathbb{N}$.": "Cela donnera l'éventuelle monotonie de $(u_n)$, mais rien ne nous dira qu'elle converge sans information supplémentaire.",
+      "On montre que $(u_n)$ est bornée": "Il existe des suites bornées, non convergentes. Par exemple, $((-1)^n)$.",
+      "On calcule quelques valeurs de la suite, et on constate qu'elle semble se rapprocher d'une valeur": "On obtient alors une conjecture ! Mais cela ne démontre rien !"
+    }
+  },
+  {
+     "question": "Pour étudier une suite arithmético-géométrique $(u_n)$, on commence par chercher la solution $\\ell$ à une certaine équation. On pose ensuite pour tout $n \\in \\mathbb{N}, v_n = u_n - \\ell $. Que doit vérifier $(v_n)$ ?",
+      "options": ["Elle doit être croissante.","Elle doit être géométrique.","Elle doit être arithmétique.","Elle doit être positive."],
+      "reponse": "Elle doit être géométrique."
+    },
+    {
+     "question": "Parmi ces théorèmes, lequel ou lesquels permettent dans certains cas de montrer la convergence d'une suite ET de trouver la valeur de la limite de la suite ?",
+      "options": ["Théorème des gendarmes","Théorème de convergence monotone","Théorèmes de croissances comparées","Théorèmes de comparaisons"],
+      "reponse": ["Théorème des gendarmes","Théorèmes de croissances comparées"],
+      "explications_fautes":  {
+      "Théorème de convergence monotone": "Ce théorème permet éventuellement de démontrer la convergence d'une suite, mais pas de trouver la valeur de sa limite dans ce cas.",
+      "Théorèmes de comparaisons": "Ces théorèmes permettent éventuellement de démontrer la divergence d'une suite !"
+    }
+  },
+      {
+     "question": "<< La suite $u_n$ converge vers $- \\infty$ >>. Quels sont le ou les problèmes dans cette phrase ?",
+      "options": ["Une suite convergente admet une limite finie, elle ne peut pas tendre vers $+ \\infty$","Il manque des parenthèses.","Il n'y a pas de quantificateurs au début de cette phrase.","Une suite est à valeurs positives, sa limite ne peut pas être négative."],
+      "reponse": ["Une suite convergente admet une limite finie, elle ne peut pas tendre vers $+ \\infty$","Il manque des parenthèses."],
+      "explications_fautes":  {
+      "Il n'y a pas de quantificateurs au début de cette phrase.": "Pas besoin ici. Comme on parle de la suite $(u_n)$, $n$ est une lettre muette.",
+      "Une suite est à valeurs positives, sa limite ne peut pas être négative.": "$n$ doit être forcément positif, mais pas $u_n$ ! Ainsi, une suite n'est pas forcément à valeurs positives."
+    }
+  },
+        {
+     "question": "Quelle est la définition avec des quantificateurs de << $(u_n)$ tend vers un réel $\\ell$ ?>>",
+      "options": ["$\\forall \\epsilon > 0, \\exists N\\in \\mathbb{N}, \\forall n \\geqslant N, |u_n - \\ell| < \\varepsilon$","$ \\exists N\\in \\mathbb{N}, \\forall \\epsilon > 0, \\exists N\\in \\mathbb{N}, \\forall n \\geqslant N, |u_n - \\ell| < \\varepsilon$","$\\exists M \\in \\mathbb{R}^+, \\forall n \\in \\mathbb{N}, |u_n| \\leqslant M$","$\\forall M \\in \\mathbb{R}, \\exists N \\in \\mathbb{N}, \\forall n \\geqslant N, |u_n| > M$"],
+      "reponse": ["$\\forall \\epsilon > 0, \\exists N\\in \\mathbb{N}, \\forall n \\geqslant N, |u_n - \\ell| < \\varepsilon$"],
+      "explications_fautes":  {
+      "$ \\exists N\\in \\mathbb{N}, \\forall \\epsilon > 0, \\exists N\\in \\mathbb{N}, \\forall n \\geqslant N, |u_n - \\ell| < \\varepsilon$": "Le début n'est pas bon...$N$ dépend de $\\varepsilon$.",
+      "$\\exists M \\in \\mathbb{R}^+, \\forall n \\in \\mathbb{N}, |u_n| \\leqslant M$": "C'est la définition de <<$(u_n)$ est bornée.>>",
+      "$\\forall M \\in \\mathbb{R}, \\exists N \\in \\mathbb{N}, \\forall n \\geqslant N, |u_n| > M$" : "C'est la définition de <<$(u_n)$ tend vers $+ \\infty$ >>"
+    }
+  },
+      {
+     "question": "Préciser quelles sont la ou les opérations autorisées avec des équivalents.",
+      "options": ["Addition","Élever à la puissance","Multiplier","Diviser (en s'étant assuré(e) que ce par quoi on divise ne s'annule pas).","Composer","Soustraction"],
+      "reponse": ["Élever à la puissance","Multiplier","Diviser (en s'étant assuré(e) que ce par quoi on divise ne s'annule pas)."]
+  },
+       {
+     "question": "Une suite croissante non majorée diverge, et admet pour limite $+ \\infty$.",
+      "options": ["Vrai","Faux"],
+      "reponse": ["Vrai"]
+  },
+         {
+     "question": "Si $(u_n)$ admet pour limite $\\ell$, alors $u_n \\sim \\ell$",
+      "options": ["Vrai","Faux"],
+      "reponse": ["Faux"],
+      "explications_fautes": {"Vrai" : "Si $(u_n)$ admet pour limite 0, alors $(u_n)$ n'est pas équivalente à 0. Si par contre $\\ell$ est supposé non nul, la phrase devient vraie."} 
+  }
+]
