@@ -1,0 +1,131 @@
+[
+   {
+    "question": "Laquelle des séries suivantes est une série géométrique convergente ?",
+    "options": [
+      "$\\displaystyle \\sum_{n=0}^{\\infty} 3^n$",
+      "$\\displaystyle \\sum_{n=0}^{\\infty} \\left(\\dfrac{1}{2}\\right)^n$",
+      "$\\displaystyle \\sum_{n=0}^{\\infty} (-2)^n$",
+      "$\\displaystyle \\sum_{n=0}^{\\infty} \\dfrac{1}{n}$"
+    ],
+    "reponse": "$\\displaystyle \\sum_{n=0}^{\\infty} \\left(\\dfrac{1}{2}\\right)^n$",
+    "explications_fautes": {
+      "$\\displaystyle \\sum_{n=0}^{\\infty} 3^n$": "Cette série diverge car la raison est > 1.",
+      "$\\displaystyle \\sum_{n=0}^{\\infty} (-2)^n$": "Elle diverge car la raison est de module > 1.",
+      "$\\displaystyle \\sum_{n=0}^{\\infty} \\dfrac{1}{n}$": "C'est la série harmonique, elle n’est pas géométrique et elle diverge."
+    }
+  },
+  {
+    "question": "Parmi les affirmations suivantes, laquelle est toujours vraie ?",
+    "options": [
+      "Si $u_n \\to 0$, alors $\\displaystyle \\sum u_n$ converge",
+      "Si $\\displaystyle \\sum u_n$ converge, alors $u_n \\to 0$",
+      "Si $\\displaystyle \\sum |u_n|$ converge, alors $\\sum u_n$ diverge",
+      "Si $(u_n)$ est bornée, alors $\\displaystyle \\sum u_n$ converge"
+    ],
+    "reponse": "Si $\\displaystyle \\sum u_n$ converge, alors $u_n \\to 0$",
+    "explications_fautes": {
+      "Si $u_n \\to 0$, alors $\\displaystyle \\sum u_n$ converge": "Contre-exemple : la série harmonique.",
+      "Si $\\displaystyle \\sum |u_n|$ converge, alors $\\sum u_n$ diverge": "Faux, la convergence absolue implique la convergence.",
+      "Si $(u_n)$ est bornée, alors $\\displaystyle \\sum u_n$ converge": "La borne des termes seuls ne suffit pas (ex: $u_n = 1$)."
+    }
+  },
+  {
+    "question": "La série $\\displaystyle \\sum_{n \\geqslant 1} \\dfrac{1}{n(n+1)}$ :",
+    "options": [
+      "diverge par comparaison à $\\dfrac{1}{n}$",
+      "converge. On peut le montrer en se ramenant à une série télescopique ou en utilisant un équivalent.",
+      "diverge car le terme général de la série ne tend pas vers 0.",
+      "diverge car elle est positive"
+    ],
+    "reponse": "converge. On peut le montrer en se ramenant à une série télescopique ou en utilisant un équivalent.",
+    "explications_fautes": {
+      "diverge par comparaison à $\\dfrac{1}{n}$": "Faux, $\\dfrac{1}{n(n+1)} \\sim \\dfrac{1}{n^2}$ qui est le terme général d'une série convergente..",
+      "diverge car le terme général de la série ne tend pas vers 0." : "Si, le terme général tend vers 0... mais on ne peut rien conclure du coup !",
+      "diverge car elle est positive": "Le signe des termes ne suffit pas pour conclure."
+    }
+  },
+    {
+    "question": "Une série, c'est un nombre.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "reponse": "Faux",
+    "explications_fautes": {
+      "Vrai": "Une série est une suite. Attention à ne pas confondre une série avec sa somme (c'est-à-dire sa limite)"
+    }
+  },
+      {
+    "question": "L'égalite $\\displaystyle \\sum_{k= 1}^{+ \\infty} (\\dfrac{1}{k} - \\dfrac{1}{k  + 1}) = \\sum_{k= 1}^{+ \\infty} \\dfrac{1}{k} -  \\sum_{k= 1}^{+ \\infty} \\dfrac{1}{k  + 1}$ est :",
+    "options": [
+      "vraie, par linéarité de la somme d'une série.",
+      "fausse, $\\displaystyle \\sum_{k \\geqslant 1} \\dfrac{1}{k}$ et $\\displaystyle  \\sum_{k \\geqslant 1} \\dfrac{1}{k  + 1}$ sont divergentes."
+    ],
+    "reponse": "fausse, $\\displaystyle \\sum_{k \\geqslant 1} \\dfrac{1}{k}$ et $\\displaystyle  \\sum_{k \\geqslant 1} \\dfrac{1}{k  + 1}$ sont divergentes.",
+    "explications_fautes": {
+      "vraie, par linéarité de la somme d'une série.": "Sauf que pour pouvoir appliquer la linéarité, il faut uniquement travailler avec des séries convergentes !"
+    }
+  },
+        {
+    "question": "Parmi ces séries, quelle est celle qui est une série usuelle (géométrique, exponentielle,...) ?",
+    "options": [
+      "$\\displaystyle \\sum_{k \\geqslant 1}^{+ \\infty} \\dfrac{1}{k!}$ ",
+      "$\\displaystyle \\sum_{k \\geqslant 1}^{+ \\infty} (\\dfrac{1}{k^2 + 1}$ ",
+      "$\\displaystyle \\sum_{k \\geqslant 1}^{+ \\infty} (\\dfrac{1}{2})^{k} + 1)$ ",
+      "$\\displaystyle \\sum_{k \\geqslant 1}^{+ \\infty} \\dfrac{7^k}{k}$ "
+    ],
+    "reponse": "$\\displaystyle \\sum_{k \\geqslant 1}^{+ \\infty} \\dfrac{1}{k!}$ ",
+    "explications_fautes": {
+      "$\\displaystyle \\sum_{k \\geqslant 1}^{+ \\infty} (\\dfrac{1}{2})^{k} + 1)$": "Ce ressemble à une série géométrique mais le +1 fait que cette série n'en est pas une.",
+      "$\\displaystyle \\sum_{k \\geqslant 1}^{+ \\infty} \\dfrac{7^k}{k}$ " : "Cela ressemble à une série exponentielle mais il manque la factorielle."
+    }
+  },
+        {
+    "question": "Pour pouvoir appliquer la comparaison série-intégrale, $f$ doit être continue et...",
+    "options": [
+      "positive",
+      "dérivable",
+      "décroissante",
+      "Rien de plus, la continuité suffit."
+    ],
+    "reponse": ["positive","décroissante"],
+    "explications_fautes": {
+      "Rien de plus, la continuité suffit.": "Non, non, la continuité ne suffit pas !",
+      "dérivable":"On ne dérive pas $f$ dans cette méthode, inutile donc qu'elle soit dérivable."
+    }
+  },
+          {
+    "question": "Si $(u_k)$ converge, alors $\\displaystyle \\sum u_k$ converge.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "reponse": ["Faux"],
+    "explications_fautes": {
+      "Vrai": "Si la suite $(u_k)$ converge vers une autre limite que 0, on est sûr que $\\sum\\limits_{k \\geqslant 1} u_k$ diverge. Et si elle converge vers 0, on n'est sûr de rien !"
+    }
+  },
+            {
+    "question": "<< Pour tout $k \\geqslant 1, - \\dfrac{1}{k} \\leqslant \\dfrac{1}{k^2}$ donc par comparaison $\\displaystyle \\sum (- \\dfrac{1}{k})$ converge >>. Ce raisonnement est faux, pourquoi ? ",
+    "options": [
+      "$\\displaystyle \\sum \\dfrac{1}{k^2}$ diverge et donc ne converge pas.",
+      "L'inégalité annoncée est fausse.",   
+      "Les théorèmes de comparaisons ne sont vrais que pour les séries à termes positifs"
+    ],
+    "reponse": "Les théorèmes de comparaisons ne sont vrais que pour les séries à termes positifs",
+    "explications_fautes": {
+      "Vrai": "Si la suite $(u_k)$ converge vers une autre limite que 0, on est sûr que $\\displaystyle \\sum u_k$ diverge. Et si elle converge vers 0, on n'est sûr de rien !"
+    }
+  },
+              {
+    "question": "La somme d'une série convergente ne dépend pas de sa borne de départ.",
+   "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "reponse": ["Faux"],
+    "explications_fautes": {
+      "Vrai": "La nature d'une série ne dépend pas de sa borne de départ, mais la valeur de sa somme si, en cas de convergence"
+    }
+  }
+]
