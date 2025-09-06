@@ -1,0 +1,137 @@
+[
+   {
+    "question": "Le théorème de D'Alembert Gauss affirme que tout polynôme admet une racine complexe.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "reponse": "Faux",
+    "explications_fautes": {
+      "Vrai" : "Les polynômes constants non nuls n'admettent pas de racine (complexe ou réelle)."
+    }
+  },
+  {
+    "question": "D'après le théorème de factorisation des polynômes, si $2$ est racine de $P$, on peut factoriser $P$ par :",
+    "options": [
+      "$X+2$",
+      "$X-2$",
+      "2",
+      "$2X$"
+    ],
+    "reponse": "$X-2$",
+    "explications_fautes": {
+      "$X+2$": "Ce serait si -2 était racine de $P$.",
+      "2": "C'est possible mais ce n'est pas le théorème de factorisation des polynômes qui l'affirme.",
+      "$2X$": "Ce serait si 0 était racine de $P$."
+    }
+  },
+  {
+    "question": "Lorsqu'on me demande de factoriser un polynôme (de degré quelconque), je commence par :",
+    "options": [
+      "trouver les racines de ce polynôme.",
+      "factoriser par le $X$ avec le monôme de plus haut degré.",
+      "dériver le polynôme $P$.",
+      "calculer delta."
+    ],
+    "reponse": "trouver les racines de ce polynôme.",
+    "explications_fautes": {
+      "calculer delta." : "Cela permet effectivement de trouver les racines d'un polynôme de degré2 et donc de la factoriser. Mais ici, aucune assurance que le polynôme soit de degré 2.",
+      "dériver le polynôme $P$.": "Quel serait alors l'objectif ? On peut vérifier qu'une racine est multiple mais il faut d'abord trouver les racines.",
+      "factoriser par le $X$ avec le monôme de plus haut degré." : "Non, cela ne permet pas d'aboutir."
+    }
+  },
+    {
+    "question": "Soit $P$ admettant 4 comme coefficient dominant, 3 comme racine double, et -5 comme racine simple. Factoriser $P$.",
+    "options": [
+      "$P = 4(X -3)^2(X + 5)$",
+      "$P = (X -3)^2(X + 5)$",
+      "$P = 4(X + 3)^2(X - 5)$",
+      "$P = 4(X - 3)(X + 5)$"
+    ],
+    "reponse": "$P = 4(X -3)^2(X + 5)$",
+    "explications_fautes": {
+      "$P = (X -3)^2(X + 5)$": "Il manque le coefficient dominant.",
+      "$P = 4(X + 3)^2(X - 5)$": "Il y a des problèmes de signe.",
+      "$P = 4(X - 3)(X + 5)$": "Ne pas oublier que 3 est racine double."
+    }
+  },
+      {
+    "question": "La fonction cosinus n'est pas un polynôme car :",
+    "options": [
+      "elle s'annule une infinité de fois et n'est pas nulle sur $\\R$.",
+      "on peut la dériver une infinité de fois sur $\\R$.",
+      "elle est périodique.",
+      "elle est bornée."
+    ],
+    "reponse": ["elle s'annule une infinité de fois et n'est pas nulle sur $\\R$."],
+    "explications_fautes": {
+      "on peut la dériver une infinité de fois sur $\\R$." : " Tout polynôme peut se dériver une infinité de fois. Ce n'est donc pas le bon argument !",
+      "elle est périodique." : "Les fonctions constantes, qui sont des polynômes, sont des fonctions périodiques pourtant.",
+      "elle est bornée." : "Les fonctions constantes, qui sont des polynômes, sont des fonctions bornées pourtant."
+    }
+  },
+        {
+    "question": "Tout polynôme, de degré impair, à valeurs réelles, admet une racine complexe.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "reponse": "Vrai",
+    "explications_fautes": {
+      "Faux" : "D'après le TVI et le cours, tout polynôme de degré impair admet une racine réelle (et donc complexe !)."
+    }
+  },
+        {
+    "question": "La somme de deux polynômes de degré $n$ est de degré $n$.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "reponse": "Faux",
+    "explications_fautes": {
+      "Vrai": "Prenons $P = - X^2$ et $Q =X^2 + 1$. Quel est le degré de $P + Q$ ?"
+    }
+  },
+          {
+    "question": "Soit $P$ un polynôme à coefficients complexes. Si $i$ est racine de $P$, alors $\\overline{i} = -i$ est aussi racine de de $P$.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "reponse": "Faux",
+    "explications_fautes": {
+      "Vrai": "Prenons $P = X - i$. Alors $\\overline{i}$ n'est pas racine de $P$. Par contre, si $P$ est à coefficients réels, c'est vrai !"
+    }
+  },
+            {
+    "question": "Si $P : x \\mapsto 2x^3 + x$, alors $P(x) \\underset{x \\to 0 }{\\sim} ...$",
+    "options": [
+      "$x^3$",
+      "$x$",
+      "$0$",
+      "$2x^3$"
+
+    ],
+    "reponse": "$x$",
+    "explications_fautes": {
+      "$x^3$" : "Attention, on cherche un équivalent de $P$ au voisinage de 0.",
+      "0" : "Une fonction n'est jamais équivalente à 0.",
+      "2x^3" : "Attention, on cherche un équivalent de $P$ au voisinage de 0."
+    }
+  },
+              {
+    "question": "Donner un polynôme $P$ qui admet pour seules racines réelles  $-1$ et $2$.",
+   "options": [
+      "$P=(X+1)(X-2)(X^2+3)$",
+      "$P= (X -1 )(X+2)$",
+      "$P= (X + 1) + (X-2)$",
+      "$P= X^2 + (-1)X + 2$"
+    ],
+    "reponse": "$P=(X+1)(X-2)(X^2+3)$",
+    "explications_fautes": {
+       "$P= (X -1 )(X+2)$" : "Ce polynôme admet 1 et -2 comme racines réelles.",
+      "$P= (X + 1) + (X-2)$" : "Ce polynôme admet 0,5 comme racine réelle.",
+      "$P= X^2 + (-1)X + 2$" : "Ce polynôme n'admet pas de racines réelles."
+    }
+  }
+]

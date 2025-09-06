@@ -1,0 +1,136 @@
+[
+   {
+    "question": "Parmi ces nombres, lequel est un argument du nombre -2 ?",
+    "options": [
+      "$2 \\pi$",
+      "$3 \\pi$",
+      "$-\\dfrac{\\pi}{2}$",
+      "$-\\dfrac{\\pi}{4}$"
+    ],
+    "reponse": "$3 \\pi$",
+    "explications_fautes": {
+      "$2 \\pi$": "Ce serait plutôt un argument de 2, par exemple.",
+      "$-\\dfrac{\\pi}{2}": "Ce serait plutôt un argument de -i, par exemple.",
+      "$-\\dfrac{\\pi}{4}": "Ce serait plutôt un argument de -1-i, par exemple."
+    }
+  },
+  {
+    "question": "Donner la partie réelle et imaginaire de $z = \\dfrac{1}{1 + i}$.",
+    "options": [
+      "Re($z$) = 1 et Im($z$) = 1",
+      "Re($z$) = $\\dfrac{1}{2}$ et Im($z$) =  $- \\dfrac{1}{2}$",
+      "Re($z$) = $\\dfrac{1}{2}$ et Im($z$) = $\\dfrac{1}{2}$",
+      "Re($z$) = 1 et Im($z$) = -1"
+    ],
+    "reponse": "Re($z$) = $\\dfrac{1}{2}$ et Im($z$) =  $- \\dfrac{1}{2}$",
+    "explications_fautes": {
+      "Re($z$) = 1 et Im($z$) = 1": "Il faut multiplier par le conjugué du dénominateur.",
+      "Re($z$) = 1 et Im($z$) = -1": "Il faut multiplier par le conjugué du dénominateur.",
+      "Re($z$) = $\\dfrac{1}{2}$ et Im($z$) = $\\dfrac{1}{2}$": "Il y a un problème de signe."
+    }
+  },
+  {
+    "question": "Une équation du second degré admet des solutions complexes si, et seulement si, son discriminant associé est strictement négatif.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "reponse": "Faux",
+    "explications_fautes": {
+      "Vrai" : "Les nombres réels sont des nombres complexes ! La phrase ci-dessus devient vraie si on précise - des solutions complexes NON RÉELLES - "
+    }
+  },
+    {
+    "question": "Donner les formules d'Euler. Soit $\theta \\ in \\R$.",
+    "options": [
+      "$\\cos(\\theta) = \\dfrac{e^{i\\theta} + e^{-i \\theta}}{2}$ \\quad et \\quad  $\\sin(\\theta) = \\dfrac{e^{i\\theta} - e^{-i \\theta}}{2}$",
+      "$\\cos(\\theta) = \\dfrac{e^{\\theta} + e^{-\\theta}}{2}$ \\quad  et \\quad  $\\sin(\\theta) = \\dfrac{e^{\\theta} - e^{- \\theta}}{2}$",
+      "$\\cos(\\theta) = \\dfrac{e^{i\\theta} + e^{-i \\theta}}{2}$ \\quad  et \\quad  $\\sin(\\theta) = \\dfrac{e^{i\\theta} + e^{- i\\theta}}{2i}$",
+      "$\\cos(\\theta) = \\dfrac{e^{i\\theta} + e^{-i \\theta}}{2}$ \\quad  et \\quad  $\\sin(\\theta) = \\dfrac{e^{i\\theta} - e^{- i\\theta}}{2i}$"
+    ],
+    "reponse": "$\\cos(\\theta) = \\dfrac{e^{i\\theta} + e^{-i \\theta}}{2}$ \\quad  et \\quad  $\\sin(\\theta) = \\dfrac{e^{i\\theta} - e^{- i\\theta}}{2i}$",
+    "explications_fautes": {
+      "$\\cos(\\theta) = \\dfrac{e^{i\\theta} + e^{-i \\theta}}{2}$ \\quad et \\quad  $\\sin(\\theta) = \\dfrac{e^{i\\theta} - e^{-i \\theta}}{2}$": "La deuxième formule n'est pas juste.",
+      "$\\cos(\\theta) = \\dfrac{e^{\\theta} + e^{-\\theta}}{2}$ \\quad  et \\quad  $\\sin(\\theta) = \\dfrac{e^{\\theta} - e^{- \\theta}}{2}$": "Il manque des i  ...",
+      "$\\cos(\\theta) = \\dfrac{e^{i\\theta} + e^{-i \\theta}}{2}$ \\quad  et \\quad  $\\sin(\\theta) = \\dfrac{e^{i\\theta} + e^{- i\\theta}}{2i}$": "Il y a un problème de signe."
+    }
+  },
+      {
+    "question": "Indiquer quelles sont les formules justes. Soient $z$ et $z'$ deux nombres complexes, $\\theta$ un réel.",
+    "options": [
+      "$| z + z'|^2 = |z|^2 + |z'|^2 + 2 |z| |z'| $",
+      "$e^{i \\pi} = -1$",
+      "$\\overline{e^{i \\theta}} = e^{-i \\theta}$",
+      "$ z \\overline{z} = | z |$"
+    ],
+    "reponse": ["$e^{i \\pi} = -1$", "$\\overline{e^{i \\theta}} = e^{-i \\theta}$"],
+    "explications_fautes": {
+      "$| z + z'|^2 = |z|^2 + |z'|^2 + 2 |z| |z'| $" : " Cette formule est fausse. Pour calculer un module au carré, on multiplie le nombre complexe par son conjugué.",
+      "$ z \\overline{z} = | z |$" : "Il manque un carré sur le module."
+    }
+  },
+        {
+    "question": "Le conjugué de $-3i + 7$ est :",
+    "options": [
+      "$3i + 7$",
+      "$-3i - 7$",
+      "$-3i + 7$",
+      "$3i - 7$"
+    ],
+    "reponse": "$3i + 7$",
+    "explications_fautes": {
+      "$-3i - 7$": "C'est incorrect.",
+      "$-3i + 7$" : "C'est incorrect.",
+      "$3i - 7$" : "C'est incorrect."
+    }
+  },
+        {
+    "question": "Un nombre complexe non nul a une, et une seule, forme trigonométrique.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "reponse": "Faux",
+    "explications_fautes": {
+      "Faux": "Un nombre complexe non nul ayant une infinité d'arguments, il n'a pas une unique forme trigonométrique."
+    }
+  },
+          {
+    "question": "$i^{2025} = ...$",
+    "options": [
+      "$i$",
+      "$-i$",
+      "$1$",
+      "$-1$"
+    ],
+    "reponse": ["$i$"],
+    "explications_fautes": {
+      "$-i$": "2024 est un multiple de 4."
+    }
+  },
+            {
+    "question": "Indiquer les bonnes relations coefficients/racines. Soient $z_1$ et $z_2$ des solutions de $a z^2 +bz + c = 0$.",
+    "options": [
+      "$z_1 + z_2 = \\dfrac{b}{a} \\quad$   et   $\\quad z_1z_2 = ca$",
+      "$z_1 + z_2 = -\\dfrac{b}{a} \\quad$   et   $\\quad z_1z_2 = \\dfrac{c}{a}$",   
+      "$z_1 + z_2 = -b\\quad $   et   $\\quad z_1z_2 = c$",
+      "$z_1 + z_2 = \\dfrac{b}{a} \\quad$   et   $\\quad z_1z_2 = -\\dfrac{c}{a}$"
+    ],
+    "reponse": "$z_1 + z_2 = -\\dfrac{b}{a} \\quad$   et   $\\quad z_1z_2 = \\dfrac{c}{a}$",
+    "explications_fautes": {
+      "$z_1 + z_2 = \\dfrac{b}{a} \\quad$   et   $\\quad z_1z_2 = ca$" :"Mauvaise formule"
+    }
+  },
+              {
+    "question": "Géométriquement, si M a pour affixe $z$ non nul, et si M' a pour affixe $z'$, alors :",
+   "options": [
+      "$M'$ est le symétrique de $M$ par rapport à l'origine.",
+      "$M'$ est le symétrique de $M$ par rapport à l'axe des abscisses.",
+      "$M'$ est le symétrique de $M$ par rapport à l'axe des ordonnées.",
+      "$M'$ est confondu avec $M$."
+    ],
+    "reponse": "$M'$ est le symétrique de $M$ par rapport à l'axe des abscisses.",
+    "explications_fautes": {
+    }
+  }
+]
