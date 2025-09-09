@@ -1,0 +1,132 @@
+[
+   {
+    "question": "Soient $A$ et $B$ deux événements. Parmi les expressions suivantes, indiquez celle qui est forcément ERRONNÉE, quel que soit le contexte.",
+    "options": [
+      "$\\mathbb{P}(A) \\cap \\mathbb{P}(B)$",
+      "$\\mathbb{P}(A \\cup B)$",
+      "$\\mathbb{P}(A) \\times \\mathbb{P}(B)$",
+      "$\\mathbb{P}(A) +  \\mathbb{P}(B)$ "
+    ],
+    "reponse": "$\\mathbb{P}(A) \\cap \\mathbb{P}(B)$",
+    "explications_fautes": {
+    }
+  },
+  {
+    "question": "Je cherche à déterminer la probabilité d'une intersection d'événements non indépendants. Je pense alors à utiliser :",
+    "options": [
+      "La formule des probabilités totales.",
+      "La formule de Bayes.",
+      "La formule des probabilités composées.",
+      "La propriété de $\\sigma$-additivité."
+    ],
+    "reponse": "La formule des probabilités composées.",
+    "explications_fautes": {
+      "La formule des probabilités totales.": "Celle-ci sert plutôt à exprimer la probabilité d'un événement en fonction de probabilités mettant en jeu un SCE.",
+      "La formule de Bayes.": "Celle-ci sert plutôt à exprimer $\\mathbb{P}(A |B)$ en fonction de $\\mathbb{P}(B |A)$.",
+      "La propriété de $\\sigma$-additivité.": "Pas de lien direct avec la question. Cette propriété est une des composantes pour qu'une fonction soit une probabilité."
+    }
+  },
+  {
+    "question": "Soit $(A_n)_{n \\in \\mathbb{N}}$ un système complet d'événements. Qu'est-ce que cela implique ? (plusieurs réponses possibles)",
+    "options": [
+      "$\\mathbb{P}( \\bigcup\\limits_{n \\in \\mathbb{N}} A_n) = 1$",
+      "Les $(A_n)$ sont 2-à-2 indépendants.",
+      "On peut calculer la probabilité de chaque $(A_n)$.",
+      "L'intersection de tous les $(A_n)$ est égale à $\\Omega$."
+    ],
+    "reponse": ["$\\mathbb{P}( \\bigcup\\limits_{n \\in \\mathbb{N}} A_n) = 1$","On peut calculer la probabilité de chaque $(A_n)$."],
+    "explications_fautes": {
+      "Les $(A_n)$ sont 2-à-2 indépendants.": "Non, ils sont 2-à-2 incompatibles. Aucune raison qu'ils soient 2-à 2 indépendants.",
+      "L'intersection de tous les $(A_n)$ est égale à $\\Omega$.": "Non, c'est la réunion."    }
+  },
+    {
+    "question": "Soient  $A,B$ deux événements non négligeables tels que $A$ et $B$ soient indépendants. Alors, on peut dire que (plusieurs réponses possibles) :",
+    "options": [
+      "$\\mathbb{P}(A \\cup B) = \\mathbb{P}(A) + \\mathbb{P}(B)$",
+      "$\\mathbb{P}(A | B) = \\mathbb{P}(A)$",
+      "$\\mathbb{P}(A \\cap B) = \\mathbb{P}(A) \\times \\mathbb{P}(B)$",
+      "$\\overline{A}$ et $\\overline{B}$ sont indépendants."
+    ],
+    "reponse": ["$\\mathbb{P}(A \\cap B) = \\mathbb{P}(A) \\times \\mathbb{P}(B)$","$\\mathbb{P}(A | B) = \\mathbb{P}(A)$","$\\overline{A}$ et $\\overline{B}$ sont indépendants."],
+    "explications_fautes": {
+      "$\\mathbb{P}(A \\cup B) = \\mathbb{P}(A) + \\mathbb{P}(B)$": "Non, ce n'est vrai que si $A$ et $B$ sont incompatibles/disjoints."
+    }
+  },
+      {
+    "question": "Soient  $A,B$ deux événements non négligeables tels que $A$ et $B$ soient disjoints. Alors, on peut dire que (plusieurs réponses possibles) :",
+    "options": [
+      "$\\mathbb{P}(A \\cap B) = 0$",
+      "$\\mathbb{P}(A \\cup B) = \\mathbb{P}(A+ B)$",
+      "$\\mathbb{P}(A \\cap B) = \\mathbb{P}(A) \\times \\mathbb{P}(B)$",
+      "$\\mathbb{P}(A \\cup B) = \\mathbb{P}(A) +\\mathbb{P}(B)$"
+    ],
+    "reponse": ["$\\mathbb{P}(A \\cap B) = 0$","$\\mathbb{P}(A \\cup B) = \\mathbb{P}(A) +\\mathbb{P}(B)$"],
+    "explications_fautes": {
+      "$\\mathbb{P}(A \\cup B) = \\mathbb{P}(A+ B)$" : "Il ne faut pas confondre $\\mathbb{P}(A+ B)$, non défini en cours, et  $\\mathbb{P}(A) +\\mathbb{P}(B)$.",
+      "$\\mathbb{P}(A \\cap B) = \\mathbb{P}(A) \\times \\mathbb{P}(B)$" : "Non, ce n'est vrai que si $A$ et $B$ sont indépendants."
+    }
+  },
+        {
+    "question": "Si un événement a une probabilité égale à 0, c'est l'événement impossible.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "reponse": "Faux",
+    "explications_fautes": {
+      "Vrai" : "Plus avec la généralisation de cette année : si on lance une infinité de fois une pièce, - Ne jamais obtenir Pile - a pour probabilité zéro sans être l'événement impossible."
+    }
+  },
+        {
+    "question": "Pour vérifier que $A,B,C$ sont trois événements mutuellement indépendants, je dois vérifier :",
+    "options": [
+      "1 égalité",
+      "2 égalités",
+      "3 égalités",
+      "4 égalités"
+    ],
+    "reponse": "4 égalités",
+    "explications_fautes": {
+      "1 égalité": "$\\mathbb{P}(A \\cap B \\cap C) = \\mathbb{P}(A) \\mathbb{P}(B)\\mathbb{P}(C)$,  $\\quad \\mathbb{P}(A \\cap B ) = \\mathbb{P}(A) \\mathbb{P}(B)$, $\\quad  \\mathbb{P}(A  \\cap C) = \\mathbb{P}(A) \\mathbb{P}(C)$, $\\quad \\mathbb{P}( B \\cap C) =\\mathbb{P}(B)\\mathbb{P}(C)$",
+      "2 égalités": "$\\mathbb{P}(A \\cap B \\cap C) = \\mathbb{P}(A) \\mathbb{P}(B)\\mathbb{P}(C)$,  $\\quad \\mathbb{P}(A \\cap B ) = \\mathbb{P}(A) \\mathbb{P}(B)$, $ \\quad \\mathbb{P}(A  \\cap C) = \\mathbb{P}(A) \\mathbb{P}(C)$, $\\quad  \\mathbb{P}( B \\cap C) =\\mathbb{P}(B)\\mathbb{P}(C)$",
+      "3 égalités": "$\\mathbb{P}(A \\cap B \\cap C) = \\mathbb{P}(A) \\mathbb{P}(B)\\mathbb{P}(C)$,$\\quad  \\mathbb{P}(A \\cap B ) = \\mathbb{P}(A) \\mathbb{P}(B)$, $\\quad  \\mathbb{P}(A  \\cap C) = \\mathbb{P}(A) \\mathbb{P}(C)$, $\\quad  \\mathbb{P}( B \\cap C) =\\mathbb{P}(B)\\mathbb{P}(C)$"
+    }
+  },
+          {
+    "question": "Pour tout $n \\in \\mathbb{N}$, on note $p_n$ la probabilité qu'une famille donnée ait $n$ enfants. Alors (plusieurs réponses possibles) :",
+    "options": [
+      "La série $\\displaystyle \\sum\\limits_{n = 0}^{+ \\infty} p_n$ diverge.",
+      "$\\forall n \\in \\N, \\quad 0 \\leqslant p_n \\leqslant 1$",
+      "$p_0 = 1 - \\displaystyle \\sum\\limits_{n = 1}^{+ \\infty} p_n$",
+      "$\\bigcup\\limits_{n = 0}^{+ \\infty} p_n = 1$"
+    ],
+    "reponse": ["$\\forall n \\in \\N, \\quad 0 \\leqslant p_n \\leqslant 1$","$p_0 = 1 - \\displaystyle \\sum\\limits_{n = 1}^{+ \\infty} p_n$"],
+    "explications_fautes": {
+      "La série $\\displaystyle \\sum\\limits_{n = 0}^{+ \\infty} p_n$ diverge.": "Si, cette série converge. On sait même que la somme de cette série est égale à 1.",
+      "$\\bigcup\\limits_{n = 0}^{+ \\infty} p_n = 1$" :"Les $p_n$ sont des nombres, et une union de nombres n'a pas de sens. Cela ne peut pas être une bonne réponse (par contre si on remplace l'union par une somme infinie, là, oui)."
+    }
+  },
+            {
+    "question": "Pour pouvoir écrire $\\mathbb{P}(A | B)$, il faut s'assurer au préalable que $\\mathbb{P}(B) \\neq 0$",
+    "options": [
+      "Vrai",
+      "Faux"
+
+    ],
+    "reponse": "Vrai",
+    "explications_fautes": {
+      "Faux" : "Lorsqu'elle peut se définir, on a  $\\mathbb{P}(A | B) = \\dfrac{\\mathbb{P}(A \\cap B)}{\\mathbb{P}(B)}$. Il faut donc bien s'assurer que $B$ est un événement non  négligeable. "
+    }
+  },
+              {
+  "question": "Un système quasi-complet d'événements est un système complet d'événements.",
+   "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "reponse": "Faux",
+    "explications_fautes": {
+       "Vrai" : "C'est l'inverse !"
+    }
+  }
+]

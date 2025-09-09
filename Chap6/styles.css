@@ -1,0 +1,89 @@
+/* ----------- PAGE D’ACCUEIL ----------- */
+.home-box {
+    background: linear-gradient(to right, #f8fbff, #fff);
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.08);
+    text-align: center;
+    margin-top: 4rem;
+    color: #222 !important;
+}
+.home-box h1 {
+    font-size: 2.8rem;
+    color: #1f77b4;
+}
+.home-box p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+.start-button {
+    display: flex;
+    justify-content: center;
+}
+.start-button > button {
+    font-size: 1.2rem;
+    background-color: #1f77b4;
+    color: white;
+    border: none;
+    padding: 0.8rem 2rem;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+.start-button > button:hover {
+    background-color: #145a86;
+    transform: scale(1.05);
+}
+
+/* ----------- CHECKBOX STYLE ----------- */
+.checkbox-button label {
+    background-color: white !important;
+    color: black !important;
+    border: 2px solid #1f77b4;
+    border-radius: 8px;
+    padding: 0.5em 1em;
+    display: block;
+    margin-bottom: 0.5em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.checkbox-button input:checked + label {
+    background-color: #cce5ff !important;
+    border-color: #1f77b4 !important;
+}
+
+/* ----------- BLOCS D’INFORMATION ----------- */
+.boite-explication {
+    border-left: 6px solid #1f77b4;
+    background-color: #fff7e6; /* orange pâle */
+    padding: 1rem;
+    border-radius: 12px;
+    margin: 1.5rem 0;
+    color: #111;
+}
+.boite-solution {
+    border-left: 6px solid #1f77b4;
+    background-color: #e6f2ff; /* bleu pâle */
+    padding: 1rem;
+    border-radius: 12px;
+    margin: 1.5rem 0;
+    color: #111;
+}
+.boite-explication h4,
+.boite-solution h4 {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+.boite-solution {
+    border-left: 6px solid #1f77b4;
+    background-color: #e6f2ff; /* bleu pâle */
+    padding: 1rem;
+    border-radius: 12px;
+    margin: 1.5rem 0;
+    color: #111;
+}
+.boite-solution h4 {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
