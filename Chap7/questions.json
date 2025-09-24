@@ -1,0 +1,134 @@
+[
+   {
+    "question": "Notons $E = Vect((1,1),(1,2))$. Alors, $E$ contient : ",
+    "options": [
+      "0 vecteur.",
+      "1 vecteur.",
+      "2 vecteurs.",
+      "une infinité de vecteurs."
+    ],
+    "reponse": "une infinité de vecteurs.",
+    "explications_fautes": {
+      "0 vecteur" : "$E$ contient bien (au moins) un vecteur. $(1,1)$ appartient à $E$ par exemple.",
+      "1 vecteur" : "$E$ contient bien (au moins) deux vecteurs. $(1,1)$ et $(1,2)$ appartiennent à $E$ par exemple.",
+      "2 vecteurs" : "$E$ contient plus de deux vecteurs. $(1,1)$ et $(1,2)$ appartiennent à $E$ par exemple, mais également tous leurs multiples et n'importe quelle combinaison linéaire formée à partir de ces vecteurs."
+    }
+  },
+  {
+    "question": "Un espace vectoriel est un :",
+    "options": [
+      "ensemble avec des propriétés bien particulières.",
+      "vecteur avec des propriétés bien particulières.",
+      "une famille finie de vecteurs avec des propriétés bien particulières.",
+      "un nombre avec des propriétés bien particulières."
+    ],
+    "reponse": "ensemble avec des propriétés bien particulières.",
+    "explications_fautes": {
+      "vecteur avec des propriétés bien particulières.": "Un espace vectoriel n'est pas un vecteur, non. S'il n'est égal au singleton vecteur nul, il en contient par contre une infinité.",
+      "une famille finie de vecteurs avec des propriétés bien particulières.": "Un espace vectoriel, sauf s'il est égal au singleton vecteur nul, contient une infinité de vecteurs.",
+      "un nombre avec des propriétés bien particulières.": "La dimension d'un espace vectoriel est un nombre, mais pas l'espace vectoriel lui-même. "
+    }
+  },
+  {
+    "question": "Comment trouve-t-on la dimension d'un espace vectoriel ?",
+    "options": [
+      "On cherche le rang de l'espace vectoriel.",
+      "On cherche une base de l'espace vectoriel, et on compte son nombre de vecteurs.",
+      "On compte le nombre de vecteurs dans le vect.",
+      "C'est le nombre de coordonnées d'un vecteur qui nous donne la dimension de l'espace vectoriel."
+    ],
+    "reponse": "On cherche une base de l'espace vectoriel, et on compte son nombre de vecteurs.",
+    "explications_fautes": {
+      "On cherche le rang de l'espace vectoriel.": "Cette phrase n'a pas de sens, un espace vectoriel n'a pas de rang.",
+      "On compte le nombre de vecteurs dans le vect.": "Non, rien ne garantit que ces vecteurs forment une famille libre.",
+      "C'est le nombre de coordonnées d'un vecteur qui nous donne la dimension de l'espace vectoriel." : "Non. Il existe des sous-espaces vectoriels de dimension 1 dans $\\mathbb{R}^3$. Chacun des vecteurs aura 3 coordonnées pourtant."
+    }
+  },
+    {
+    "question": "$A = \\{ (x,y) \\in \\mathbb{R}^2, \\quad x + y = 1 \\}$. $A$ est un espace vectoriel.",
+    "options": [
+      "Vrai.",
+      "Faux."
+    ],
+    "reponse": "Faux.",
+    "explications_fautes": {
+      "Vrai.": "$A$ ne contient pas le vecteur nul !"
+    }
+  },
+      {
+    "question": "$B = Vect((1,1))$. $B$ est un espace vectoriel.",
+    "options": [
+      "Vrai.",
+      "Faux."
+    ],
+    "reponse": "Vrai.",
+    "explications_fautes": {
+      "Faux": "$B$ est un sous-espace vectoriel engendré. C'est donc en particulier, d'après le cours, un sous-espace vectoriel."
+    }
+  },
+        {
+    "question": "Soit $F$ un espace vectoriel de dimension $n$. Pour montrer qu'une famille de $n$ vecteurs de $F$ est une base de $F$, on peut : (plusieurs réponses possibles)",
+    "options": [
+      "montrer qu'elle est libre et génératrice.",
+      "montrer qu'elle est libre et préciser qu'elle est constituée de $n$ vecteurs",
+      "écrire sa matrice dans une base de $F$ et montrer qu'elle est de rang $n$",
+      "montrer que son sous-espace vectoriel engendré est de dimension $n$"
+    ],
+    "reponse": ["montrer qu'elle est libre et génératrice.","montrer qu'elle est libre et préciser qu'elle est constituée de $n$ vecteurs","écrire sa matrice dans une base de $F$ et montrer qu'elle est de rang $n$","montrer que son sous-espace vectoriel engendré est de dimension $n$"],
+    "explications_fautes": {
+    }
+  },
+        {
+    "question": "Soient $B= (a,b)$ une base d'un espace vectoriel $E$, autre que l'éventuelle base canonique, et $x$ un vecteur de $E$. Pour déterminer les coordonnées de $x$ dans $B$, je dois :",
+    "options": [
+      "exprimer $a$ et $b$ en fonction de $x$. Les coefficients me donnent les coordonnées recherchées.",
+      "exprimer $x$ en fonction de $a$ et $b$. Les coefficients me donnent les coordonnées recherchées.",
+      "donner les coordonnées de $x$ dans la base canonique.",
+      "déterminer le rang de la base $B$."
+    ],
+    "reponse": "exprimer $x$ en fonction de $a$ et $b$. Les coefficients me donnent les coordonnées recherchées.",
+    "explications_fautes": {
+      "exprimer $a$ et $b$ en fonction de $x$. Les coefficients me donnent les coordonnées recherchées.": "Non, c'est l'inverse !",
+      "donner les coordonnées de $x$ dans la base canonique.": "Non ! Pas si B est une base différente.",
+      "déterminer le rang de la base $B$.": "Cela ne permet pas de répondre au problème posé."
+    }
+  },
+          {
+    "question": "La famille $((1,0,0),(1,1,0),(1,1,1))$ est libre dans $\\mathbb{R}^3$ car :",
+    "options": [
+      "cette famille est constituée de 3 vecteurs dans $\\mathbb{R}^3$.",
+      "ces vecteurs ne sont pas colinéaires entre eux.",
+      "aucun de ces vecteurs n'est pas le vecteur nul.",
+      "cette famille est de rang 3."
+    ],
+    "reponse": ["cette famille est de rang 3."],
+    "explications_fautes": {
+      "cette famille est constituée de 3 vecteurs dans $\\mathbb{R}^3$.": "$((1,1,1),(2,2,2),(3,3,3))$ n'est pas libre dans $\\mathbb{R}^3$ alors qu'elle est pourtant constituée de 3 vecteurs.",
+      "ces vecteurs ne sont pas colinéaires entre eux." :"Cet argument ne fonctionne que pour les familles de 2 vecteurs.",
+      "aucun de ces vecteurs n'est pas le vecteur nul." :"Cet argument ne fonctionne que pour les familles d'un seul vecteur."
+    }
+  },
+            {
+    "question": "$\\mathbb{R}^2$ et $\\mathbb{R}_2[X]$ sont de dimension 2.",
+    "options": [
+      "Vrai",
+      "Faux"
+
+    ],
+    "reponse": "Faux",
+    "explications_fautes": {
+      "Vrai" : "$\\mathbb{R}^2$  est bien de dimension 2, mais $\\mathbb{R}_2[X]$ est de dimension 3."
+    }
+  },
+              {
+  "question": "Une famille de polynômes d'un espace vectoriel $E$ de degrés 2-à-2 distincts est une base de $E$.",
+   "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "reponse": "Faux",
+    "explications_fautes": {
+       "Vrai" : "C'est une famille libre mais il reste à vérifier le caractère générateur."
+    }
+  }
+]
