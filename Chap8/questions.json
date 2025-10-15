@@ -1,0 +1,151 @@
+[
+   {
+    "question": "Soit $X$ une variable aléatoire suivant une loi géométrique de paramètre $p$. Que vaut $X(\\Omega)$ ?",
+    "options": [
+      "$\\llbracket 0 ; n \\rrbracket$",
+      "$\\mathbb{N}$",
+      "$\\mathbb{N}^*$",
+      "$\\llbracket 1 ; n \\rrbracket$"
+    ],
+    "reponse": "$\\mathbb{N}^*$",
+    "explications_fautes": {
+      "$\\llbracket 0 ; n \\rrbracket$" : "L'univers image d'une variable aléatoire suivant une loi géométrique est infini.",
+      "$\\llbracket 1 ; n \\rrbracket$" : "L'univers image d'une variable aléatoire suivant une loi géométrique est infini.",
+      "$\\mathbb{N}$" : "Peut-on avoir notre premier succès au rang 0 alors que notre premier lancer est le lancer n°1 ?"
+    }
+  },
+  {
+    "question": "Soit $X$ une variable aléatoire suivant une loi géométrique de paramètre $p$. Pour tout $k \\in \\mathbb{N}$, $P(X= k) =$ ",
+    "options": [
+      "$p^{k - 1} (1 -p)$",
+      "$p^k (1 -p)$",
+      "$p (1 -p)^{k - 1}$",
+      "$p (1 -p)^{k}$"
+    ],
+    "reponse": "$p (1 -p)^{k - 1}$",
+    "explications_fautes": {
+    }
+  },
+  {
+    "question": "Soient $X$ et $Y$ deux variables aléatoires dont l'univers image contient 0. Préciser, parmi les égalités suivantes, l'unique égalité qui a un sens.",
+    "options": [
+      "$\\mathbb{P}(X) = 0$",
+      "$\\mathbb{P}(X \\cap Y) = 0$",
+      "$\\mathbb{P}(X = 0) = 0$",
+      "$\\mathbb{P}_{Y}(X)=0$"
+    ],
+    "reponse": "$\\mathbb{P}(X = 0) = 0$",
+    "explications_fautes": {
+      "$\\mathbb{P}(X) = 0$": "La probabilité de $X$ n'a pas de sens. Par contre, la probabilité que $X$ soit égal à un nombre, là oui !",
+      "$\\mathbb{P}(X \\cap Y) = 0$": "$X$ et $Y$ ne sont pas des ensembles, donc $X \\cap Y$ n'a pas de sens.",
+      "$\\mathbb{P}_{Y}(X)=0$" : "La probabilité de $X$, sachant $Y$ n'a pas de sens. Par contre, la probabilité que $X$ (ou $Y$) soit égal à un nombre, là oui !"
+    }
+  },
+    {
+    "question": "Soient $X$ et $Y$ deux variables aléatoires discrètes indépendantes. Pour étudier la loi de max($X,Y$), on doit commencer par déterminer :",
+    "options": [
+      "la fonction de répartition de max($X,Y$), en calculant les $\\mathbb{P}(\\text{max}($X,Y$)\\leqslant k)$.",
+      "la fonction d'anti-répartition de max($X,Y$), en calculant les $\\mathbb{P}(\\text{max}($X,Y$) > k)$.",
+      "les $\\mathbb{P}(\\text{max}($X,Y$) = k)$.",
+      "les $\\mathbb{P}(\\text{max}($X,Y$) \\neq k)$."
+    ],
+    "reponse": "la fonction de répartition de max($X,Y$), en calculant les $\\mathbb{P}(\\text{max}($X,Y$)\\leqslant k)$.",
+    "explications_fautes": {
+      "la fonction d'anti-répartition de max($X,Y$), en calculant les $\\mathbb{P}(\\text{max}($X,Y$) > k)$.": "Non, cette méthode serait pour min($X,Y$).",
+      "les $\\mathbb{P}(\\text{max}($X,Y$) = k)$.":"Si, on pouvait, one le ferait. Mais on n'en est pas capable directement.",
+      "les $\\mathbb{P}(\\text{max}($X,Y$) \\neq k)$.":"Non, cela ne nous ait d'aucune utilité pour trouver la loi demandée"
+    }
+  },
+      {
+    "question": "Soit $X$ une variable aléatoire discrète telle que $X(\\Omega) = \\mathbb{N}$, dont on vient de trouver la fonction de répartition $F_X$. Alors, pour tout $k \\in \\mathbb{N}^*$,",
+    "options": [
+      "$\\mathbb{P}(X = k) = F_X(k + 1) - F_X(k)$",
+      "$\\mathbb{P}(X = k) = F_X(k) - F_X(k - 1)$",
+      "$F_X(k) = \\mathbb{P}(X = k) - \\mathbb{P}(X = k - 1)$",
+      "$F_X(k) = \\mathbb{P}(X = k + 1) - \\mathbb{P}(X = k)$"
+    ],
+    "reponse": "$\\mathbb{P}(X = k) = F_X(k) - F_X(k - 1)$",
+    "explications_fautes": {
+        }
+  },
+        {
+    "question": "Une variable aléatoire qui admet une espérance, admet nécessairement une variance.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "reponse": ["Faux"],
+    "explications_fautes": {
+      "Vrai" : "Non, c'est l'inverse. Une variable aléatoire qui admet une variance admet nécessairement une espérance."
+    }
+  },
+        {
+    "question": "Que dit la formule de König-Huygens ?",
+    "options": [
+      "$V(X) = \\mathbb{E}(X)^2 - \\mathbb{E}(X^2)$",
+      "$V(X) = \\mathbb{E}(X^2) - \\mathbb{E}(X)^2$",
+      "$\\mathbb{E}(X^2) = \\sum\\limits_{x \\in X(\\Omega)} x^2 \\mathbb{P}(X = x)$",
+      "pour tous réels $a$ et $b$, $V(a \\times X+b) = a^2 V(X)$"
+    ],
+    "reponse": "$V(X) = \\mathbb{E}(X^2) - \\mathbb{E}(X)^2$",
+    "explications_fautes": {
+      "$V(X) = \\mathbb{E}(X)^2 - \\mathbb{E}(X^2)$": "Non, c'est l'inverse.",
+      "$\\mathbb{E}(X^2) = \\sum\\limits_{x \\in X(\\Omega)} x^2 \\mathbb{P}(X = x)$": "Cette formule est juste. Mais c'est elle découle du théorème de transfert.",
+      "pour tous réels $a$ et $b$, $V(a \\times X+b) = a^2 V(X)$": "Cette formule est juste. Mais elle ne découle pas de la formule de König-Huygens."
+    }
+  },
+          {
+    "question": "Soient $X$ et $Y$ deux variables aléatoires et $(i,j) \\in X(\\Omega) \\times Y(\\Omega)$. Quelle formule reste vraie même si $X$ et $Y$ ne sont pas indépendantes ?",
+    "options": [
+      "$V(X+ Y) = V(X) + V(Y)$",
+      "$\\mathbb{E}(XY) = \\mathbb{E}(X) \\mathbb{E}(Y)$",
+      "$\\mathbb{E}(X+ Y) = \\mathbb{E}(X) + V\\mathbb{E}(Y)$",
+      "$\\mathbb{P}((X \\leqslant i) \\cap (Y \\leqslant j)) = \\mathbb{P}(X \\leqslant i) \\mathbb{P}(Y \\leqslant j)$ "
+    ],
+    "reponse": ["$\\mathbb{E}(X+ Y) = \\mathbb{E}(X) + V\\mathbb{E}(Y)$"],
+    "explications_fautes": {
+    }
+  },
+            {
+    "question": "Si $\\sum\\limits_{x \\in X(\\Omega)} x \\mathbb{P}(X = x)$ converge, alors $X$ admet une espérance.",
+    "options": [
+      "Vrai",
+      "Faux"
+
+    ],
+    "reponse": "Faux",
+    "explications_fautes": {
+      "Vrai" : "Il faut qu'il y ait convergence absolue !"
+    }
+  },
+              {
+  "question": "Quel est l'univers image d'une variable aléatoire suivant une loi de Poisson de paramètre $\\lambda$ ?",
+    "options": [
+      "$\\llbracket 0 ; n \\rrbracket$",
+      "$\\mathbb{N}$",
+      "$\\mathbb{N}^*$",
+      "$\\llbracket 1 ; n \\rrbracket$"
+    ],
+    "reponse": "$\\mathbb{N}$",
+    "explications_fautes": {
+      "$\\llbracket 0 ; n \\rrbracket$" : "L'univers image d'une variable aléatoire suivant une loi de Poisson est infini.",
+      "$\\llbracket 1 ; n \\rrbracket$" : "L'univers image d'une variable aléatoire suivant une loi de Poisson est infini.",
+      "$\\mathbb{N}^*$" : "La valeur 0 est tout à fait possible !"
+    }
+  },
+                  {
+  "question": "On tire 10 pénaltys et on compte le nombre $X$ de tirs cadrés. On considère chaque tir indépendant les uns des autreset que l'on a deux chances sur trois de cadrer le tir. Quelle loi sur $X$ ?",
+    "options": [
+      "Une loi binomiale de paramètres 10 et $\\dfrac23$",
+      "Une loi de Bernoulli de paramètre $\\dfrac23$",
+      "Une loi géométrique de paramètre $\\dfrac23$",
+      "Une loi de Poisson de paramètre $\\dfrac23$"
+    ],
+    "reponse": "Une loi binomiale de paramètres 10 et $\\dfrac23$",
+    "explications_fautes": {
+      "Une loi géométrique de paramètre $\\dfrac23$" : "Une loi géométrique s'intéresse plutôt au rang du premier succès (donc le rang du premier tir cadré ici).",
+      "Une loi de Bernoulli de paramètre $\\dfrac23$" : "Il y a ici répétition des tirs, cela ne peut pas être une loi de Bernoulli.",
+      "Une loi de Poisson de paramètre $\\dfrac23$" : "Dans un exercice, la mise en jeu d'une loi de Poisson sera toujours explicitement écrite !"
+    }
+  }
+]
