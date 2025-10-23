@@ -1,0 +1,134 @@
+[
+   {
+    "question": "Pour montrer qu'un application $f$ est linéaire, on doit montrer que $f(0) = 0$ :",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "reponse": "Faux",
+    "explications_fautes": {
+      "Vrai" : "Le fait que $f(0) = 0$ découle de la définition, il ne sert à rien de le vérifier. Par contre, si on doute que $f$ soit linéaire, il est toujours bon de s'en assurer."
+    }
+  },
+  {
+    "question": "Pour montrer qu'une application linéaire $f : E \\rightarrow F$ est injective, la méthode LA PLUS EFFICACE est de :",
+    "options": [
+      "supposer qu'il existe $x$ et $y$ tels que $f(x) = f(y)$ et de montrer que $x = y$",
+      "montrer que ker($k$) = $\\{ 0_E \\}$",
+      "montrer que im($f$) = $F$",
+      "montrer que rg($f$) = 0"
+    ],
+    "reponse": "montrer que ker($k$) = \\{ 0_E \\}$",
+    "explications_fautes": {
+      "supposer qu'il existe $x$ et $y$ tels que $f(x) = f(y)$ et de montrer que $x = y$":"cette méthode fonctionne (pour les applications en général, pas seulement pour les linéaires) mais ce n'est pas la méthode la plus effiace pour les applications linéaires.",
+      "montrer que im($f$) = $F$":"Cette méthode sert à montrer que $f$ est surjective.",
+      "montrer que rg($f$) = 0": "Cela montrerait que $f$ est l'application nulle."
+    }
+  },
+  {
+    "question": "Pour montrer que $f$ est un automorphisme, il suffit de montrer que :",
+    "options": [
+      "$f$ est un endmorphisme bijectif",
+      "$f$ est linéaire et un isomorphisme",
+      "$f$ est un endmorphisme et injective",
+      "$f$ est linéaire et surjective"
+    ],
+    "reponse": "$f$ est un endmorphisme bijectif",
+    "explications_fautes": {
+      "$f$ est linéaire et un isomorphisme": "Il reste à savoir si $f$ va d'un espace vectoriel dans lui-même.",
+      "$f$ est un endmorphisme et injective": "Il reste à savoir si $f$ est surjective.",
+      "$f$ est linéaire et surjective" : "Il reste à savoir si $f$ est injective."
+    }
+  },
+    {
+    "question": "Lorsque $f$ est un endormorphisme, le théorème de rang assure que pour montrer que $f$ est un automorphisme, il suffit de montrer qu'elle est injective.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "reponse": "Vrai",
+    "explications_fautes": {
+    }
+  },
+      {
+    "question": "Soient $E$ et $F$ deux espaces vectoriels tels que $E$ est de dimension finie. Soit $f \\in \\mathscr{L}(E,F)$. Alors, de façon générale, d'après le théorème du rang :",
+    "options": [
+      "dim(ker($f$)) + rg($f$) = dim($F$)",
+      "ker($f$) + rg($f$) = E",
+      "dim(ker($f$)) + dim(Im($f$)) = dim(E)",
+      "dim(ker($f$)) + dim($E$) = rg($f$)"
+    ],
+    "reponse": "dim(ker($f$)) + dim(Im($f$)) = dim(E)",
+    "explications_fautes": {
+      "dim(ker($f$)) + rg($f$) = dim($F$)":"Le membre de droite n'est pas correct.",
+      "ker($f$) + rg($f$) = E":"rg(f) est un nombre et on l'ajoute à ker(f) qui est un ensemble ?",
+      "dim(ker($f$)) + dim($E$) = rg($f$)":"Les termes ne sont pas tous du bon côté de l'égalité !"
+        }
+  },
+        {
+    "question": "Soit $f \\in \\mathscr{L}(E,F)$. Pour trouver une famille génératrice de Im($f$), on peut :",
+    "options": [
+      "trouver une base de $F$",
+      "déterminer le noyau de $f$",
+      "écrire $F$ sous la forme d'un vect",
+      "déterminer les images par $f$ des vecteurs d'une base de $E$"
+    ],
+    "reponse": ["déterminer les images par $f$ des vecteurs d'une base de $E$"],
+    "explications_fautes": {
+      "trouver une base de $F$" : "Non, une base de $F$ n'est pas nécessairement constituée de vecteurs de Im($f$).",
+      "écrire $F$ sous la forme d'un vect" : "Non, une base de $F$ n'est pas nécessairement constituée de vecteurs de Im($f$).",
+      "déterminer le noyau de $f$":"Cela ne permettrait pas de trouver une famille génératrice de Im($f$)"
+
+    }
+  },
+        {
+    "question": "Soit $f \\in \\mathscr{L}(E,F)$. Si $(e_1,...,e_n)$ est une base de $E$, alors $(f(e_1),...,f(e_n))$ est une base de $F$.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "reponse": "Faux",
+    "explications_fautes": {
+      "Vrai": "Non, on peut seulement dire que $(f(e_1),...,f(e_n))$ est une famille génératrice de $F$."
+    }
+  },
+          {
+    "question": "Pour montrer que $f$ est un endomorphisme de $E$, il faut justifier que $f : E \\mapsto E$, où $E$ est un $\\mathbb{K}$-espace vectoriel, :",
+    "options": [
+      "et que $f$ est linéaire",
+      "et que $f$ est bijective",
+      "et que $f(0) = 0$",
+      "et rien d'autre"
+    ],
+    "reponse": "et que $f$ est linéaire",
+    "explications_fautes": {
+    }
+  },
+            {
+    "question": "Le noyau d'une application est un sous-espace vectoriel.",
+    "options": [
+      "Vrai",
+      "Faux"
+
+    ],
+    "reponse": "Faux",
+    "explications_fautes": {
+      "Vrai" : "Il faut que l'application soit linéaire !"
+    }
+  },
+              {
+  "question": "Parmi les applications suivantes, lauelle est linéaire ?",
+    "options": [
+      "$x \\mapsto e^x$",
+      "$x \\mapsto x^2$",
+      "$x \\mapsto -7x$",
+      "$x \\mapsto 3x+1$"
+    ],
+    "reponse": "$x \\mapsto -7x$",
+    "explications_fautes": {
+      "$x \\mapsto e^x$" : "Ce n'est pas une application linéaire. $f(0) \\neq 0$",
+      "$x \\mapsto x^2$" : "$f(1) + f(1) = 2 \\neq f(1 + 1) = 4$",
+      "$x \\mapsto 3x+1$" : "Ce n'est pas une application linéaire. $f(0) \\neq 0$"
+    }
+  }
+]
