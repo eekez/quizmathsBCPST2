@@ -1,0 +1,122 @@
+[
+   {
+    "question": "Soient $A,B, C$ trois matrices. Si on a $AB = AC$, alors $B$ = $C$ de façon générale.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "reponse": "Faux",
+    "explications_fautes": {
+      "Vrai" : "De façon générale, il faut que $A$ soit inversible pour que cette implication soit vraie."
+    }
+  },
+  {
+    "question": "Quelle hypothèse est nécessaire sur $A$ et $B$ pour pouvoir leur appliquer la formule du binôme de Newton ?",
+    "options": [
+      "aucune, la formule du binôme est valable pour n'importe quelles matrices.",
+      "$A$ et $B$ doivent commuter, c'est-à-dire que $AB = BA$. ",
+      "Il faut que $A$ et $B$ soient inversibles.",
+      "$A$ ou $B$ doit être nilpotente."
+    ],
+    "reponse": "$A$ et $B$ doivent commuter, c'est-à-dire que $AB = BA$.",
+    "explications_fautes": {
+    }
+  },
+  {
+    "question": "Qu'est-ce qu'une matrice symétrique ?",
+    "options": [
+      "Une matrice égale à son inverse.",
+      "Une matrice égale à son opposé.",
+      "Une matrice égale à sa transposée.",
+      "Une matrice égale à son carré."
+    ],
+    "reponse": "Une matrice égale à sa transposée.",
+    "explications_fautes": {
+    }
+  },
+  {
+    "question": "Pour élever une matrice au carré, il suffit d'élèver chacun de ses coefficients au carré",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "reponse": "Faux",
+    "explications_fautes": {
+    }
+  },
+      {
+    "question": "Pour obtenir la matrice de passage de la base $\\mathscr{B}$ dans $\\mathscr{B}'$, il suffit de trouver les coordonnées des vecteurs de $\\mathscr{B}'$ dans $\\mathscr{B}$.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "reponse": "Vrai",
+    "explications_fautes": {
+    }
+  },
+        {
+    "question": "Soit $f : \\mathbb{R}^3 \\rightarrow \\mathbb{R}^2$ telle que pour tout $(x,y,z) \\in \\mathbb{R}^3$, $f(x,y,z) = (x + y + z, y, x- z)$. Sa matrice dans les bases canoniques de $\\mathbb{R}^3$ et $\\mathbb{R}^2$ est :",
+    "options": [
+      "$\\begin{pmatrix}1 & 1 & 1 \\\\ 0 & 1 & 0 \\\\ 1 & 0 & -1\\end{pmatrix}$",
+      "$\\begin{pmatrix} 1 & 0 & 1 \\\\ 1 & 1 & 0 \\\\ 1 & 0 & -1 \\end{pmatrix}$",
+      "$\\begin{pmatrix} 1 & 1 & 1 \\\\ 1 & 0 & 0 \\\\ 1 & 1 & -1 \\end{pmatrix}$",
+      "$\\begin{pmatrix} 1 & 0 & -1 \\\\ 1 & 1 & 0 \\\\ 1 & 0 & 1 \\end{pmatrix}$"
+    ],
+    "reponse": "$\\begin{pmatrix}1 & 1 & 1 \\\\ 0 & 1 & 0 \\\\ 1 & 0 & -1\\end{pmatrix}$",
+    "explications_fautes": {
+      "$\\begin{pmatrix} 1 & 0 & 1 \\\\ 1 & 1 & 0 \\\\ 1 & 0 & -1 \\end{pmatrix}$" : "Attention aux confusions entre lignes et colonnes"
+
+    }
+  },
+        {
+    "question": "Dans quel cas utilise-t-on le déterminant ?",
+    "options": [
+      "Pour déterminer si une matrice $2 \\times 2$ est inversible et calculer son inverse.",
+      "Pour déterminer si une matrice carrée de taille quelconque est inversible et calculer son inverse.",
+      "Pour déterminer le rang d'une matrice $3 \\times 3$",
+      "Pour déterminer si une matrice est symétrique."
+    ],
+    "reponse": "Pour déterminer si une matrice $2 \\times 2$ est inversible et calculer son inverse.",
+    "explications_fautes": {
+      "Pour déterminer si une matrice de taille quelconque est inversible et calculer son inverse.": "Non, cela ne fonctionne que pour les matrices de taille $2 x 2$"
+    }
+  },
+          {
+    "question": "Si $A = \\begin{pmatrix} a & b \\\\ c & d \\\\ \\end{pmatrix}$ est une matrice inversible, alors ...",
+    "options": [
+      "$A^{-1} = \\begin{pmatrix} d & -b \\\\ -c & a \\\\ \\end{pmatrix}$",
+      "$A^{-1} = \\begin{pmatrix} -a & -b \\\\ -c & -d \\\\ \\end{pmatrix}$",
+      "$A^{-1} = \\dfrac{1}{det(A)}  \\begin{pmatrix} -a & -b \\\\ -c & -d \\\\ \\end{pmatrix}$",
+      "$A^{-1} = \\dfrac{1}{det(A)} \\begin{pmatrix} d & -b \\\\ -c & a \\\\ \\end{pmatrix}$"
+    ],
+    "reponse": "$A^{-1} = \\dfrac{1}{det(A)} \\begin{pmatrix} d & -b \\\\ -c & a \\\\ \\end{pmatrix}$",
+    "explications_fautes": {
+    }
+  },
+            {
+    "question": "L'inverse d'un produit de matrices inversibles $A \\times B$ est $B^{-1} A^{-1}$.",
+    "options": [
+      "Vrai",
+      "Faux"
+
+    ],
+    "reponse": "Vrai",
+    "explications_fautes": {
+    }
+  },
+              {
+  "question": "Si $A = \\begin{pmatrix} 1 & 0&  0 \\\\ 0 & 2 & 0 \\\\ 0 & 0  & 3 \\\\ \\end{pmatrix}$, alors :",
+    "options": [
+      "$A$ est inversible car aucun de ses coefficients diagonaux est nul, et $A^{-1} = \\begin{pmatrix} 1 & 0& 0 \\\\ 0 & \\frac12 & 0 \\\\ 0 & 0  & \\frac13 \\\\ \\end{pmatrix}$.",
+      "$A$ n'est pas inversible car diagonale.",
+      "$A$ n'est pas inversible car elle contient des coefficients nuls.",
+      "$A$ est inversible. Pour le montrer, on calcule son déterminant. Pour son inverse, on utilise obligatoirement la méthode du pivot de Gauss. "
+    ],
+    "reponse": "$A$ est inversible car aucun de ses coefficients diagonaux est nul, et $A^{-1} = \\begin{pmatrix} 1 & 0& 0 \\\\ 0 & \\frac12 & 0 \\\\ 0 & 0  & \\frac13 \\\\ \\end{pmatrix}$.",
+    "explications_fautes": {
+      "$A$ n'est pas inversible car diagonale." : "Une matrice diagonale peut être inversible ! (si tous ses coefficients diagonaux sont non nuls). Par exemple, la matrice identité.",
+      "$A$ n'est pas inversible car elle contient des coefficients nuls." : "La matrice identité contient des 0 et pourtant elle est inversible (d'inverse elle-même)",
+      "$A$ est inversible. Pour le montrer, on calcule son déterminant. Pour son inverse, on utilise obligatoirement la méthode du pivot de Gauss. " : "On ne calcule pas le déterminant d'une matrice $3 \\times 3$. Par ailleurs, l'inverse d'une matrice diagonale inversible ne nécessite pas d'utiliser la méthode du pivot de Gauss."
+    }
+  }
+]
