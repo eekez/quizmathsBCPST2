@@ -1,0 +1,119 @@
+[
+   {
+    "question": "Quelles sont les équations différentielles linéaires que l'on doit savoir résoudre ? Plusieurs réponses possibles.",
+    "options": [
+      "Les équations différentielles linéaire d'ordre 1, à coefficients constants.",
+      "Les équations différentielles linéaire d'ordre 1, à coefficients variables.",
+      "Les équations différentielles linéaire d'ordre 2, à coefficients constants.",
+      "Les équations différentielles linéaire d'ordre 2, à coefficients variables."
+    ],
+    "reponse": ["Les équations différentielles linéaire d'ordre 1, à coefficients constants.","Les équations différentielles linéaire d'ordre 1, à coefficients variables.", "Les équations différentielles linéaire d'ordre 2, à coefficients constants."],
+    "explications_fautes": {
+      "Les équations différentielles linéaire d'ordre 2, à coefficients variables." : "Non, pas celles à coefficients variables !"
+    }
+  },
+  {
+    "question": "A quoi sert la méthode de la variation de la constante ?",
+    "options": [
+      "À résoudre complètement une équation différentielle d'ordre 1.",
+      "À trouver les solutions d'une équation différentielle homogène linéaire d'ordre 2.",
+      "À trouver une solution particulière d'une équation différentielle linéaire d'ordre 1.",
+      "À résoudre des équations différentielles non linéaires"
+    ],
+    "reponse": "À trouver une solution particulière d'une équation différentielle linéaire d'ordre 1.",
+    "explications_fautes": {
+    }
+  },
+  {
+    "question": "Quelles sont les équations différentielles, parmi les suivantes, qui sont linéaires ? Plusieurs réponses possibles.",
+    "options": [
+      "$y^{(7)} + 7^2 y = 5$",
+      "$\\dfrac{1}{3}y^{(3)} = t$",
+      "$y' + y^2 = -1$",
+      "$\\sqrt{2} y' = 5$"
+    ],
+    "reponse": ["$y^{(7)} + 7^2 y = 5$","$\\dfrac{1}{3}y^{(3)} = t$","$\\sqrt{2} y' = 5$"],
+    "explications_fautes": {
+    }
+  },
+  {
+    "question": "Une solution à une équation différentielle est une fonction (au moins une fois dérivable).",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "reponse": "Vrai",
+    "explications_fautes": {
+    }
+  },
+      {
+    "question": "Soient $a$ et $f$ deux fonctions continues de $I$ dans $\\mathbb{R}$. Si $f$ est solution sur $\\mathbb{R}$ de $y' + a(t) y = 7$, alors $f$ est de classe $\\mathbb{C}^1$ sur $\\mathbb{R}$.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "reponse": "Vrai",
+    "explications_fautes": {
+      "Faux":"Non, c'est vrai. Déjà $f$ est forcément dérivable pour être solution de l'équation différentielle. De plus, $f' = 7 - a y$ est continue par opérations sur les fonctions continues."
+    }
+  },
+        {
+    "question": "Lorsqu'une EDL2 est à coefficients constants, et que le membre de droite est constant, on peut chercher la solution sous la forme d'une constante.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "reponse": "Faux",
+    "explications_fautes": {
+      "Vrai" : "Non, tout dépend si 0 est solution de l'équation caractèristique. Par exemple, $y'' = 1$ n'admet pas de solution particulière constante. C'est vrai pour une EDL1 par contre à condition que le coefficient devant $y$ soit non nul."
+
+    }
+  },
+        {
+    "question": "Déterminer les solutions de l'équation caractéristique associée sert à :",
+    "options": [
+      "Trouver la forme des solutions d'une EDL1 homogène",
+      "Trouver la forme des solutions d'une EDL2 homogène",
+      "Trouver une solution particulière d'une EDL1",
+      "Trouver une solution particulière d'une EDL2"
+    ],
+    "reponse": "Trouver la forme des solutions d'une EDL2 homogène",
+    "explications_fautes": {
+    }
+  },
+          {
+    "question": "Une EDL1 donnée admet une, et une seule, solution.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "reponse": "Faux",
+    "explications_fautes": {
+      "Vrai" : "C'est mlee cas si une condition initiale est donnée. C'est faux sinon !"
+    }
+  },
+            {
+    "question": "Une EDL2 avec une condition initiale admet une, et une seule solution.",
+    "options": [
+      "Vrai",
+      "Faux"
+
+    ],
+    "reponse": "Faux",
+    "explications_fautes": {
+      "Vrai": "Pour avoir une unique solution à une EDL2, il faut deux conditions initiales (généralement données sur la fonction et la dérivée)."
+    }
+  },
+              {
+  "question": "En quoi consiste la méthode de la variation de la constante ?",
+    "options": [
+      "On cherche une solution particulière d'une EDL1 en reprenant la forme générale trouvée pour l'équation homogène, mais en considérant cette fois la constante comme une fonction qui varie au cours du temps.",
+      "On trouve la valeur des constantes dans les solutions de l'équation complète, en utilisant les conditions initiales.",
+      "On cherche la solution particulière d'une EDL1 sous la forme d'une constante.",
+      "On remplace dans une EDL2 l'inconnue $y$ par une constante, et on détermine la valeur de la constante ainsi introduite."
+    ],
+    "reponse": "On cherche une solution particulière d'une EDL1 en reprenant la forme générale trouvée pour l'équation homogène, mais en considérant cette fois la constante comme une fonction qui varie au cours du temps.",
+    "explications_fautes": {
+    }
+  }
+]
