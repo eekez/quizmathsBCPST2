@@ -1,0 +1,118 @@
+[
+   {
+    "question": "Une fois ses valeurs propres calculées, pour savoir si une matrice $n \\times n$ est inversible, il suffit de :",
+    "options": [
+      "voir si elle possède $n$ valeurs propres distinctes.",
+      "voir si $0$ est valeur propre de celle-ci.",
+      "déterminer les sous-espaces propres et voir si la somme de leur dimension est égale à $n$",
+      "voir si la matrice est symétrique à coefficients réels."
+    ],
+    "reponse": "voir si $0$ est valeur propre de celle-ci.",
+    "explications_fautes": {
+      "déterminer les sous-espaces propres et voir si la somme de leur dimension est égale à $n$" : "Cette méthode permet de vérifier si la matrice est diagonalisable, pas inversible !",
+      "voir si elle possède $n$ valeurs propres distinctes." : "Cette méthode permet de vérifier si la matrice est diagonalisable, pas inversible !",
+      "voir si la matrice est symétrique à coefficients réels." : "Cette méthode permet de vérifier si la matrice est diagonalisable, pas inversible !"
+    }
+  },
+  {
+    "question": "La méthode la plus efficace pour déterminer les valeurs propres d'une matrice $2 \\times 2$ non triangulaire consiste à :",
+    "options": [
+      "utiliser l'algorithme du pivot de Gauss.",
+      "lire les coefficients diagonaux de la matrice.",
+      "calculer det($A - \\lambda I_2$).",
+      "calculer det($A$)."
+    ],
+    "reponse": "calculer det($A - \\lambda I_2$).",
+    "explications_fautes": {
+    }
+  },
+  {
+    "question": "La méthode la plus efficace pour déterminer les valeurs propres d'une matrice $3 \\times 3$, triangulaire supérieure, consiste à :",
+    "options": [
+      "utiliser l'algorithme du pivot de Gauss.",
+      "lire les coefficients diagonaux de la matrice.",
+      "calculer det($A - \\lambda I_2$).",
+      "calculer det($A$)."
+    ],
+    "reponse": "lire les coefficients diagonaux de la matrice.",
+    "explications_fautes": {
+    }
+  },
+  {
+    "question": "Toute matrice symétrique est diagonalisable.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "reponse": "Faux",
+    "explications_fautes": {
+      "Vrai":"Il manque la précision que les coefficients doivent être réels. Il existe des matrices symétriques à coefficients complexes non diagonalisables."
+    }
+  },
+      {
+    "question": "Tous les endomorphismes sont diagonalisables.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "reponse": "Faux",
+    "explications_fautes": {
+    }
+  },
+        {
+    "question": "Déterminer les vecteurs propres d'un endomorphisme permet de trouver, en cas d'existence, une base dans laquelle cet endomorphisme aura une matrice diagonale.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "reponse": "Vrai",
+    "explications_fautes": {
+    }
+  },
+        {
+    "question": "Une matrice $n \\times n$ qui n'admet pas $n$ valeurs propres n'est pas diagonalisable.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "reponse": "Faux",
+    "explications_fautes": {
+      "Faux":"Elle peut être diagonalisable ! Il faut vérifier si la somme des dimensions de ses sous-espaces propres est égale à $n$."
+    }
+  },
+          {
+    "question": "Pour démontrer que $A = \\begin{pmatrix} 1 & 1 \\\\ -1 & 3 \\end{pmatrix}$ admet $\\begin{pmatrix} 1 \\\\  1 \\\\ \\end{pmatrix}$ comme vecteur propre, la méthode la plus efficace consiste à :",
+    "options": [
+      "calculer le déterminant de $A - \\lambda I_2$, puis de déterminer les sous-espaces propres.",
+      "utiliser la méthode du pivot de Gauss.",
+      "multiplier $A$ par le vecteur et de vérifier qu'on obtient bien le vecteur lui-même.",
+      "multiplier $A$ par le vecteur et de vérifier qu'on obtient bien un multiple du vecteur"
+    ],
+    "reponse": "multiplier $A$ par le vecteur et de vérifier qu'on obtient bien un multiple du vecteur",
+    "explications_fautes": {
+    }
+  },
+            {
+    "question": "Pour démontrer que $A = \\begin{pmatrix} 1 & 1 \\\\ -1 & 3 \\end{pmatrix}$ admet $2$ comme valeur propre, et déterminer les vecteurs propres de $A$ associés à cette valeur,  la méthode la plus efficace consiste à :",
+    "options": [
+      "calculer le déterminant de $A - \\lambda I_2$.",
+      "utiliser la méthode du pivot de Gauss.",
+      "déterminer directement $E_2(A)$ et à vérifier qu'il n'est pas réduit au singleton vecteur nul.",
+      "lire ses coefficients diagonaux."
+
+    ],
+    "reponse": "déterminer directement $E_2(A)$ et de vérifier qu'il n'est pas réduit au singleton vecteur nul.",
+    "explications_fautes": {
+    }
+  },
+              {
+  "question": "Une matrice diagonale est évidemment diagonalisable",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "reponse": "Vrai",
+    "explications_fautes": {
+    }
+  }
+]
