@@ -38,10 +38,10 @@
     "options": [
       "$\\ln$",
       "$t \\mapsto \\dfrac1t$",
-      "$t \\mapsto t \\ln (t) - t $ ",
+      "$t \\mapsto t \\ln (t) - t$ ",
       "$t \\mapsto \\exp (t)$ "
     ],
-    "reponse": "$t \\mapsto t \\ln (t) - t $ ",
+    "reponse": "$t \\mapsto t \\ln (t) - t$ ",
     "explications_fautes": {
       "$t \\mapsto \\dfrac1t$":"Ce n'est pas une primitive, mais la dérivée !"
     }
@@ -119,4 +119,5 @@
     "explications_fautes": {
     }
   }
+
 ]
