@@ -1,0 +1,122 @@
+[
+   {
+    "question": "De quelles variables va dépendre l'intégrale $\\displaystyle \\int_{0}^x t^n \\mathrm{d}t$ ?",
+    "options": [
+      "De $x$ et $t$",
+      "De $n$ et $t$",
+      "De $n$ et $x$",
+      "D'aucune."
+    ],
+    "reponse": "De $n$ et $x$",
+    "explications_fautes": {
+    }
+  },
+  {
+    "question": "Quand $\\dfrac{1}{n + 1}$ apparaît dans une inégalité mettant en jeu des intégrales, je peux choisir de réécrire ce terme :",
+    "options": [
+      "$\\displaystyle \\int_0^1 t^{n-1} \\mathrm{d}t$",
+      "$\\displaystyle \\int_0^1 t^n \\mathrm{d}t$",
+      "$\\displaystyle \\int_0^1 t^{n +1} \\mathrm{d}t$",
+      "$\\displaystyle \\int_0^1 \\dfrac{1}{t^n} \\mathrm{d}t$"
+    ],
+    "reponse": "$\\displaystyle \\int_0^1 t^n \\mathrm{d}t$",
+    "explications_fautes": {
+    }
+  },
+  {
+    "question": "L'intégrale sur $[1,2]$ d'une fonction continue sur ce segment est forcément convergente.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "reponse": "Vrai",
+    "explications_fautes": {
+    }
+  },
+  {
+    "question": "Une primitive de $\\ln$ sur $]0, + \\infty[$ est :",
+    "options": [
+      "$\\ln$",
+      "$t \\mapsto \\dfrac1t$",
+      "$t \\mapsto t \\ln (t) - t $ ",
+      "$t \\mapsto \\exp (t)$ "
+    ],
+    "reponse": "$t \\mapsto t \\ln (t) - t $ ",
+    "explications_fautes": {
+      "$t \\mapsto \\dfrac1t$":"Ce n'est pas une primitive, mais la dérivée !"
+    }
+  },
+      {
+    "question": "Pour faire une intégration par parties sur $[a;b]$, avec $a,b$ deux réels finis, il faut que les fonctions mises en jeu soient :",
+    "options": [
+      "continues sur $[a;b]$.",
+      "dérivables sur $[a;b]$.",
+      "de classe $\\mathscr{C}^1$ sur $[a;b]$.",
+      "continues et strictement monotones sur $[a;b]$."
+
+
+    ],
+    "reponse": "de classe $\\mathscr{C}^1$ sur $[a;b]$.",
+    "explications_fautes": {
+    }
+  },
+        {
+    "question": "Quelle est l'intégrale au programme qui est égale à $\\sqrt{ 2 \\pi}$ ?",
+    "options": [
+      "$\\displaystyle \\int_{ - \\infty}^{+ \\infty} \\dfrac{1}{t^2}\\mathrm{d}t$",
+      "$\\displaystyle \\int_{ - \\infty}^{+ \\infty} e^{-2 \\pi t} \\mathrm{d}t$",
+      "$\\displaystyle \\int_{ - \\infty}^{+ \\infty} e^{- \\frac{t^2}{2}} \\mathrm{d}t$",
+      "$\\displaystyle \\int_{ 0}^{+ \\infty} e^{- \\frac{t^2}{2}} \\mathrm{d}t$"
+
+    ],
+    "reponse": "$\\displaystyle \\int_{ - \\infty}^{+ \\infty} e^{- \\frac{t^2}{2}} \\mathrm{d}t$",
+    "explications_fautes": {
+    }
+  },
+        {
+    "question": "Si $f$ et $g$ sont deux fonctions continues sur $\\mathbb{R}$, positives et équivalentes en $+ \\infty$, alors, $$\\displaystyle \\int_{ 0}^{+ \\infty} f(t)\\mathrm{d}t  =\\displaystyle \\int_{ 0}^{+ \\infty} g(t) \\mathrm{d}t $$",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "reponse": "Faux",
+    "explications_fautes": {
+      "Vrai":"Les deux intégrales ont la même nature. Et même si elles sont toutes les deux convergentes, il n'y a aucune raison qu'elles soient égales."
+    }
+  },
+          {
+    "question": "Pour qu'un changement de variable via $\\varphi$ soit possible dans une intégrale généralisée, il faut que :",
+    "options": [
+      "$\\varphi$ soit de classe $\\mathscr{C}^1$ et strictement monotone.",
+      "$\\varphi$ soit continue et dérivable.",
+      "$\\varphi$ soit de classe $\\mathscr{C}^1$.",
+      "$\\varphi$ soit de classe $\\mathscr{C}^2$."
+    ],
+    "reponse": "$\\varphi$ soit de classe $\\mathscr{C}^1$ et strictement monotone.",
+    "explications_fautes": {
+    }
+  },
+            {
+    "question": "Soit $f$ une fonction continue sur $\\mathbb{R}$ et impaire. Alors $\\int_{-2}^2 f(t) \\mathrm{d}t = 0$.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "reponse": "Vrai",
+    "explications_fautes": {
+      "Faux":"Si ! Si les bornes de l'intégrale sont opposées l'une de l'autre, comme $f$ est impaire, alors l'intégrale sera nulle."
+    }
+  },
+              {
+  "question": "Dans quel cas dit-on que l'intégrale est faussement impropre en un réel $b$ ?",
+    "options": [
+      "Quand $f$ est continue en $b$.",
+      "Quand $f$ est prolongeable par continuité en $b$.",
+      "Quand $f$ n'est pas définie en $b$, et qu'il n'est pas possible de la prolonger par continuité en $b$.",
+      "Quand $\\displaystyle \\lim\\limits_{x \\to b^-} \\int_a^x f(t) \\mathrm{d}t = + \\infty$"
+    ],
+    "reponse": "Quand $f$ est prolongeable par continuité en $b$.",
+    "explications_fautes": {
+    }
+  }
+]
