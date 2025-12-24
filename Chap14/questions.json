@@ -23,7 +23,7 @@
     }
   },
   {
-    "question": "L'espérance d'un produit de variables aléatoires est égal au produit des espérances de chacune des variables aléatoires...",
+    "question": "L'espérance d'un produit de variables aléatoires est égale au produit des espérances de chacune des variables aléatoires...",
     "options": [
       "...tout le temps.",
       "...lorsque les variables aléatoires sont mutuellement indépendantes."
@@ -114,4 +114,5 @@
   }
 
 ]
+
 
