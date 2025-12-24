@@ -8,7 +8,7 @@ def injecter_css():
     with open(chemin_css) as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-st.set_page_config(page_title="Quiz sur l'intégration", page_icon="🧠", layout="centered")
+st.set_page_config(page_title="Quiz sur les variables aléatoires à densité"", page_icon="🧠", layout="centered")
 injecter_css()
 
 # --------- Page d'accueil si le quiz n’a pas encore commencé ---------
