@@ -95,7 +95,7 @@
       "À déterminer la densité d'une somme de variables aléatoires indépendantes à densité.",
       "À déterminer la densité d'un produit de variables aléatoires indépendantes à densité.",
       "À déterminer la densité d'une image par des fonctions de variables aléatoires indépendantes à densité.",
-      "À déterminer l'espérance d'un produit de variables aléatoires indépendantes à densité.",
+      "À déterminer l'espérance d'un produit de variables aléatoires indépendantes à densité."
     ],
     "reponse": "À déterminer la densité d'une somme de variables aléatoires indépendantes à densité.",
     "explications_fautes": {
@@ -113,4 +113,5 @@
     "explications_fautes": {
     }
   }
+
 ]
