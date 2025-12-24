@@ -1,0 +1,116 @@
+[
+   {
+    "question": "Parmi les lois suivantes, laquelle n'est pas une loi à densité ?",
+    "options": [
+      "Loi exponentielle de paramètre $\\lambda > 0$",
+      "Loi uniforme de paramètre $[a;b]$",
+      "Loi géométrique de paramètre $p \\in [0;1]$",
+      "Loi normale centrée réduite."
+    ],
+    "reponse": "Loi géométrique de paramètre $p \\in [0;1]$",
+    "explications_fautes": {
+    }
+  },
+  {
+    "question": "La somme de variables aléatoires à densité est une variable aléatoire à densité.",
+    "options": [
+      "Vrai.",
+      "Faux."
+    ],
+    "reponse": "Faux.",
+    "explications_fautes": {
+	"Vrai": "Non ! Si $X$ est une variable aléatoire à densité, $-X$ aussi, mais $X + (-X) = 0$ n'est pas à densité."
+    }
+  },
+  {
+    "question": "L'espérance d'un produit de variables aléatoires est égal au produit des espérances de chacune des variables aléatoires...",
+    "options": [
+      "...tout le temps.",
+      "...lorsque les variables aléatoires sont mutuellement indépendantes."
+    ],
+    "reponse": "...lorsque les variables aléatoires sont mutuellement indépendantes.",
+    "explications_fautes": {
+    }
+  },
+  {
+    "question": "Simuler une variable aléatoire à densité sur Python, c'est créer une fonction qui renvoie l'expression de sa fonction de densité.",
+    "options": [
+      "Vrai.",
+      "Faux."
+    ],
+    "reponse": "Faux.",
+    "explications_fautes": {
+      "Vrai.":"Non ! On cherche en fait à estimer des intégrales de la fonction de densité."
+    }
+  },
+      {
+    "question": "La fonction de densité d'une variable aléatoire $X$ est la dérivée de la fonction de répartition de $X$ en tout point où $F$ est de classe $\\mathscr{C}^1$",
+    "options": [
+      "Vrai.",
+      "Faux."
+    ],
+    "reponse": "Vrai.",
+    "explications_fautes": {
+    }
+  },
+        {
+    "question": "Que doit vérifier une densité $f$ de probabilité ?",
+    "options": [
+      "Être de classe $\\mathscr{C}^1$.",
+      "Être continue sur $\\mathbb{R}$ tout entier.",
+      "Être positive ou nulle sur $\\mathbb{R}$.",
+      "$\\displaystyle \\int_{ 0}^{1} f(t) \\mathrm{d}t = 1$"
+
+    ],
+    "reponse": "Être positive ou nulle sur $\\mathbb{R}$.",
+    "explications_fautes": {
+	"Être continue sur $\\mathbb{R}$ tout entier.":"La fonction $f$ peut ne pas être continue en un nombre fini de points sans que cela soit un problème."
+    }
+  },
+        {
+    "question": "Toutes les variables aléatoires à densité admettent une espérance.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "reponse": "Faux",
+    "explications_fautes": {
+    }
+  },
+          {
+    "question": "L'espérance d'une variable aléatoire qui suit une loi exponentielle de paramètre $\\lambda$ est :",
+    "options": [
+      "$\\lambda$",
+      "$\\dfrac{1}{\\lambda}$",
+      "$\\dfrac{1}{\\lambda^2}$",
+      "$ 1 - e^{- \\lambda t}$"
+    ],
+    "reponse": "$\\dfrac{1}{\\lambda}$",
+    "explications_fautes": {
+    }
+  },
+            {
+    "question": "À quoi sert le produit de convolution ?",
+    "options": [
+      "À déterminer la densité d'une somme de variables aléatoires indépendantes à densité.",
+      "À déterminer la densité d'un produit de variables aléatoires indépendantes à densité.",
+      "À déterminer la densité d'une image par des fonctions de variables aléatoires indépendantes à densité.",
+      "À déterminer l'espérance d'un produit de variables aléatoires indépendantes à densité.",
+    ],
+    "reponse": "À déterminer la densité d'une somme de variables aléatoires indépendantes à densité.",
+    "explications_fautes": {
+    }
+  },
+              {
+  "question": "Quelles sont les lois vues depuis le début de l'année avec une "absence de mémoire" ?",
+    "options": [
+      "Lois binomiales et géométriques.",
+      "Lois binomiales et normales.",
+      "Lois uniformes et normales.",
+      "Lois géométriques et exponentielles."
+    ],
+    "reponse": "Lois géométriques et exponentielles.",
+    "explications_fautes": {
+    }
+  }
+]
