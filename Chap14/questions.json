@@ -60,7 +60,6 @@
       "Être continue sur $\\mathbb{R}$ tout entier.",
       "Être positive ou nulle sur $\\mathbb{R}$.",
       "$\\displaystyle \\int_{ 0}^{1} f(t) \\mathrm{d}t = 1$"
-
     ],
     "reponse": "Être positive ou nulle sur $\\mathbb{R}$.",
     "explications_fautes": {
@@ -102,7 +101,7 @@
     }
   },
               {
-  "question": "Quelles sont les lois vues depuis le début de l'année avec une "absence de mémoire" ?",
+  "question": "Quelles sont les lois vues depuis le début de l'année avec une absence de mémoire ?",
     "options": [
       "Lois binomiales et géométriques.",
       "Lois binomiales et normales.",
@@ -115,3 +114,4 @@
   }
 
 ]
+
