@@ -1,0 +1,119 @@
+[
+   {
+    "question": "Le produit scalaire entre deux vecteurs de $\\mathbb{R}^2$ donne :",
+    "options": [
+      "un vecteur de $\\mathbb{R}^2$.",
+      "un vecteur de $\\mathbb{R}^3$.",
+      "un nombre réel.",
+      "un sous-espace vectoriel."
+    ],
+    "reponse": "un nombre réel.",
+    "explications_fautes": {
+    }
+  },
+  {
+    "question": "Le produit scalaire sert à :",
+    "options": [
+      "savoir si deux vecteurs sont colinéaires.",
+      "savoir si deux vecteurs sont orthogonaux.",
+      "savoir si deux droites sont parallèles.",
+      "savoir si un vecteur est un vecteur directeur d'une droite."
+    ],
+    "reponse": "savoir si deux vecteurs sont orthogonaux.",
+    "explications_fautes": {
+    }
+  },
+  {
+    "question": "Soit $S$ une matrice symétrique à coefficients réels. En plus de préciser que $S$ est diagonalisable, le théorème spectral affirme que/qu' :",
+    "options": [
+      "il y  a au moins une base orthonormée où une matrice semblable à $S$ est diagonale.",
+      "la matrice de passage $P$ entre la base de départ et une base formée de vecteurs propres de $S$ vérifie $P = P^T$.",
+	"$S$ est inversible.",
+	"$S^T = S^{-1}$"
+    ],
+    "reponse": "il y  a au moins une base orthonormée où une matrice semblable à $S$ est diagonale.",
+    "explications_fautes": {
+    }
+  },
+  {
+    "question": "Une projection $p$ est un endomorphisme qui va notamment vérifier que/qu' :",
+    "options": [
+      "$p \\circ p = Id$",
+      "Im($p$) et Ker($p$) sont confondus.",
+      "il est bijectif.",
+      "$p \\circ p = p$"
+    ],
+    "reponse": "$p \\circ p = p$",
+    "explications_fautes": {
+    }
+  },
+      {
+    "question": "L'inégalité de Cauchy-Schwarz dit que pour tous réels $x, y$, on a :",
+    "options": [
+      "$||x|| \\times ||y|| \\geqslant |<x,y>|$",
+      "$||x|| \\times ||y|| = |<x,y>|$",
+      "$<x,y> \\leqslant ||x|| ||y||$",
+      "$|<x,y>| < ||x|| ||y||$"
+    ],
+    "reponse": "$||x|| \\times ||y|| \\geqslant |<x,y>|$",
+    "explications_fautes": {
+    }
+  },
+        {
+    "question": "Quand est-ce que le cas d'égalité de Cauchy-Schwarz est vérifié ?",
+    "options": [
+      "Lorsque les deux vecteurs mis en jeu sont orthogonaux.",
+      "Lorsque les deux vecteurs mis en jeu sont colinéaires.",
+      "Lorsqu'il existe une constante positive qui permet de passer de l'un à l'autre.",
+      "Lorsqu'un des deux vecteurs est le vecteur nul."
+
+    ],
+    "reponse": ["Lorsque les deux vecteurs mis en jeu sont colinéaires.","Lorsqu'il existe une constante positive qui permet de passer de l'un à l'autre.","Lorsqu'un des deux vecteurs est le vecteur nul."],
+    "explications_fautes": {
+    }
+  },
+        {
+    "question": "Une famille orthogonale est forcément une famille libre.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "reponse": "Faux",
+    "explications_fautes": {
+      "Vrai":"Non, il faut en plus que les vecteurs soient non nuls. En particulier, une famille orthonormée est toujours libre."
+    }
+  },
+          {
+    "question": "Pour montrer qu'un vecteur $x$ est dans l'orthogonal de Vect($u$,$v$), il suffit de vérifier que $x$ est orthogonal à $u$ et que $x$ est orthogonal à $v$.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "reponse": "Vrai",
+    "explications_fautes": {
+    }
+  },
+            {
+    "question": "Dans l'espace, deux droites sont ou bien sécantes, ou bien parallèles.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "reponse": "Faux",
+    "explications_fautes": {
+      "Vrai":"Elles peuvent être non coplanaires également !"
+    }
+  },
+              {
+  "question": "Une équation réduite de droite peut être de la forme :",
+    "options": [
+      "$y = mx + p$",
+      "$ax + by + c = 0$",
+      "$x = c$",
+      "$x = 1 +2t$"
+    ],
+    "reponse": ["$y = mx + p$","$x = c$"],
+    "explications_fautes": {
+    }
+  }
+]
