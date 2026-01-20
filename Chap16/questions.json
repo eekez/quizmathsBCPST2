@@ -1,0 +1,117 @@
+[
+   {
+    "question": "Soit $f$ une fonction à deux variables définie sur $\\mathbb{R}^2$. La courbe de niveau 2 de $f$ est :",
+    "options": [
+      "l'ensemble $\\{ (x,y) \\in \\mathbb{R}^2, f(x,y) = 2 \\}$",
+      "l'ensemble $\\{ (x,y) \\in \\mathbb{R}^2, f(2,2) = x \\}$",
+      "l'ensemble des antécédents de 2 par la fonction $f$.",
+      "la courbe représentative de $x \\mapsto f(x,2)$."
+    ],
+    "reponse": ["l'ensemble $\\{ (x,y) \\in \\mathbb{R}^2, f(x,y) = 2 \\}$", "l'ensemble des antécédents de 2 par la fonction $f$."],
+    "explications_fautes": {
+    }
+  },
+  {
+    "question": "Soit $f$ une fonction à deux variables définie sur $\\mathbb{R}^2$. $f$ est continue en $(a,b$) lorsque :",
+    "options": [
+      "$\\forall \\varepsilon > 0 \\exists \\alpha > 0 \\forall (x,y) \\in \\mathbb{R}^2, ||(x,y) - (a,b)|| \\leqslant \\alpha \\implies |f(x,y) - f(a,b)| \\leqslant \\varepsilon$",
+      "$\\forall \\alpha > 0 \\exists \\varepsilon > 0 \\forall (x,y) \\in \\mathbb{R}^2, ||(x,y) - (a,b)|| \\leqslant \\alpha \\implies |f(x,y) - f(a,b)| \\leqslant \\varepsilon$",
+      "$\\forall \\varepsilon > 0 \\exists \\alpha > 0 \\forall (x,y) \\in \\mathbb{R}^2, ||(x,y) - (a,b)|| \\leqslant \\alpha \\implies |f(x,y) - f(a,b)| \\leqslant \\alpha$",
+      "$\\exists \\alpha > 0  \\forall \\varepsilon > 0 \\forall (x,y) \\in \\mathbb{R}^2, ||(x,y) - (a,b)|| \\leqslant \\alpha \\implies |f(x,y) - f(a,b)| \\leqslant \\alpha$"
+    ],
+    "reponse":       "$\\forall \\varepsilon > 0 \\exists \\alpha > 0 \\forall (x,y) \\in \\mathbb{R}^2, ||(x,y) - (a,b)|| \\leqslant \\alpha \\implies |f(x,y) - f(a,b)| \\leqslant \\varepsilon$",
+    "explications_fautes": {
+    }
+  },
+  {
+    "question": "Le théorème de Schwarz affirme que :",
+    "options": [
+      "si $f$ est de classe $\\mathscr{C}^1$ sur $\\mathbb{R}^2$, alors $\\dfrac{\\partial f}{\\partial x} = \\dfrac{\\partial f}{\\partial y}$",
+      "si $f$ est de classe $\\mathscr{C}^2$ sur $\\mathbb{R}^2$, alors $\\dfrac{\\partial^2 f}{\\partial x^2} = \\dfrac{\\partial^2 f}{\\partial y^2}$",
+      "si $f$ est de classe $\\mathscr{C}^2$ sur $\\mathbb{R}^2$, alors $\\dfrac{\\partial^2 f}{\\partial x \\partial y} = \\dfrac{\\partial^2 f}{\\partial y \\partial x}$",
+      "si $f$ est continue sur $\\mathbb{R}^2$, alors ses applications partielles sont égales."
+    ],
+    "reponse":"si $f$ est de classe $\\mathscr{C}^2$ sur $\\mathbb{R}^2$, alors $\\dfrac{\\partial^2 f}{\\partial x \\partial y} = \\dfrac{\\partial^2 f}{\\partial y \\partial x}$",
+    "explications_fautes": {
+    }
+  },
+  {
+    "question": "Soit $f$ une fonction à deux variables définie sur $\\mathbb{R}^2$. Préciser quelle affirmation n'a pas de sens parmi les propositions suivantes :",
+    "options": [
+      "$f$ est continue sur un pavé ouvert de $\\mathbb{R}^2$.",
+      "$f$ est dérivable sur un pavé ouvert de $\\mathbb{R}^2$.",
+      "$f$ est de classe $\\mathscr{C}^1$ sur un pavé ouvert de $\\mathbb{R}^2$.",
+      "La première application partielle de $f$ est dérivable sur $\\mathbb{R}$"
+    ],
+    "reponse": "$f$ est dérivable sur un pavé ouvert de $\\mathbb{R}^2$.",
+    "explications_fautes": {
+    }
+  },
+      {
+    "question": "Soit $f$ une fonction à deux variables définie sur $\\mathbb{R}^2$ et $(x,y) \\in \\mathbb{R}^2$. Quelle égalité est bien écrite ?",
+    "options": [
+      "$\\dfrac{\\partial f}{\\partial x} = x^2 + y^2$",
+      "$\\dfrac{\\partial f}{\\partial x}(x,y) = x^2 + y^2$",
+      "$\\dfrac{\\partial f(x,y)}{\\partial x} = x^2 + y^2$",
+      "$\\dfrac{\\mathrm{d} f(x,y)}{\\mathrm{d} x} = x^2 + y^2$"
+    ],
+    "reponse": "$\\dfrac{\\partial f}{\\partial x}(x,y) = x^2 + y^2$",
+    "explications_fautes": {
+    }
+  },
+        {
+    "question": "Un gradient en un point $(a,b)$ de $\\mathbb{R}^2$ est :",
+    "options": [
+      "un élément de $\\mathbb{R}$.",
+      "un élément de $\\mathbb{R}^2$.",
+      "une fonction à deux variables.",
+      "un ensemble."
+
+    ],
+    "reponse": "un élément de $\\mathbb{R}^2$.",
+    "explications_fautes": {
+    }
+  },
+        {
+    "question": "Soit $f$ une fonction à deux variables définie sur $\\mathbb{R}^2$ et $(a,b) \\in \\mathbb{R}^2$. Si $(a,b)$ est un point critique de $f$, alors $f$ admet un extremum en $(a,b)$.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "reponse": "Faux",
+    "explications_fautes": {
+    }
+  },
+          {
+    "question": "Soit $f$ une fonction à deux variables définie sur $\\mathbb{R}^2$ et $(a,b) \\in \\mathbb{R}^2$. Si $f$ admet un extremum en $(a,b)$, alors $(a,b)$ est un point critique de $f$.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "reponse": "Vrai",
+    "explications_fautes": {
+    }
+  },
+            {
+    "question": "Dans la méthode des moindres carrés, quelle est la formule permettant de retrouver la valeur du coefficient directeur de la droite des moindres carrés ?",
+    "options": [
+      "$a = \\dfrac{s_{xy}}{s_x^2}$",
+      "$a = \\dfrac{s_{xy}}{s_x}$",
+      "$a = \\dfrac{s_{xy}^2}{s_x^2}$",
+      "$a = \\overline{y} - b \\overline{x}$"
+    ],
+    "reponse": "$a = \\dfrac{s_{xy}}{s_x^2}$",
+    "explications_fautes": {
+    }
+  },
+              {
+  "question": "Soit $f$ une fonction à deux variables définie sur $\\mathbb{R}^2$. Si les applications partielles de $f$ sont toutes les deux continues en 0, alors $f$ aussi?",
+    "options": [
+     "Vrai",
+      "Faux"
+    ],
+    "reponse": "Faux",
+    "explications_fautes": {
+    }
+  }
+]
