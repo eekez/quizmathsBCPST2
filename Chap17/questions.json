@@ -51,10 +51,10 @@
     "options": [
       "$\\E(X + Y) = \\E(X) + \\E(Y)$",
       "$\\E(XY) = \\E(X) \\E(Y)$",
-      "$\\V(X + Y) = \\V(X) + \\V(Y)$",
+      "$V(X + Y) = V(X) + V(Y)$",
       "$\\text{Cov}(X,Y) = 0$"
     ],
-    "reponse": ["$\\E(X + Y) = \\E(X) + \\E(Y)$","$\\E(XY) = \\E(X) \\E(Y)$","$\\V(X + Y) = \\V(X) + \\V(Y)$","$Cov(X,Y) = 0$"],
+    "reponse": ["$\\E(X + Y) = \\E(X) + \\E(Y)$","$\\E(XY) = \\E(X) \\E(Y)$","$V(X + Y) = V(X) + V(Y)$","$Cov(X,Y) = 0$"],
     "explications_fautes": {
     }
   },
@@ -107,12 +107,11 @@
     "options": [
      "$\\text{Cov}(X,Y) = - \\text{Cov}(Y,X)$",
      "$\\text{Cov}(X + W,Y+Z) = \\text{Cov}(X,Y) +  \\text{Cov}(W,Z)$",
-     "$\\text{Cov}(X,X) = \\V(X)$",
+     "$\\text{Cov}(X,X) = V(X)$",
      "$\\text{Cov}(X,X) = 0$ pour toute variable aléatoire $X$"
     ],
-    "reponse": "$\\text{Cov}(X,X) = \\V(X)$",
+    "reponse": "$\\text{Cov}(X,X) = V(X)$",
     "explications_fautes": {
     }
   }
-
 ]
