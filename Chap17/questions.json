@@ -49,12 +49,12 @@
       {
     "question": "Si $X$ et $Y$ sont finies et indépendantes, alors :",
     "options": [
-      "$\\E(X + Y) = \\E(X) + \\E(Y)$",
-      "$\\E(XY) = \\E(X) \\E(Y)$",
+      "$E(X + Y) = E(X) + E(Y)$",
+      "$E(XY) = E(X) E(Y)$",
       "$V(X + Y) = V(X) + V(Y)$",
       "$\\text{Cov}(X,Y) = 0$"
     ],
-    "reponse": ["$\\E(X + Y) = \\E(X) + \\E(Y)$","$\\E(XY) = \\E(X) \\E(Y)$","$V(X + Y) = V(X) + V(Y)$","$Cov(X,Y) = 0$"],
+    "reponse": ["$E(X + Y) = E(X) + E(Y)$","$E(XY) = E(X) E(Y)$","$V(X + Y) = V(X) + V(Y)$","$Cov(X,Y) = 0$"],
     "explications_fautes": {
     }
   },
@@ -64,12 +64,12 @@
       "Vrai",
       "Faux"
     ],
-    "reponse": "Vrai",
+    "reponse": "Faux",
     "explications_fautes": {
     }
   },
         {
-    "question": "De façon générale, si $X$ et $Y$ sont des variables aléatoies admettant une variance, et telles que $X + Y$ admet une variance, alors :",
+    "question": "De façon générale, si $X$ et $Y$ sont des variables aléatoires admettant une variance, et telles que $X + Y$ admet une variance, alors :",
     "options": [
       "$V(X + Y) = V(X) + V(Y)$",
       "$V(X + Y) = V(X) + V(Y) + \\text{Cov}(X,Y)$",
@@ -115,3 +115,4 @@
     }
   }
 ]
+
