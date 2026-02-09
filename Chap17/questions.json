@@ -108,10 +108,11 @@
      "$\\text{Cov}(X,Y) = - \\text{Cov}(Y,X)$",
      "$\\text{Cov}(X + W,Y+Z) = \\text{Cov}(X,Y) +  \\text{Cov}(W,Z)$",
      "$\\text{Cov}(X,X) = \\V(X)$",
-     "$\\text{Cov}(X,X) = 0$ pour toute variable aléatoire $X$",
+     "$\\text{Cov}(X,X) = 0$ pour toute variable aléatoire $X$"
     ],
     "reponse": "$\\text{Cov}(X,X) = \\V(X)$",
     "explications_fautes": {
     }
   }
+
 ]
