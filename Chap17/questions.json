@@ -36,7 +36,7 @@
     }
   },
   {
-    "question": "Si $X \\hookrightarrow \\matscr{P}(1)$ et si $Y \\hookrightarrow \\matscr{P}(2)$, alors $X+Y \\hookrightarrow \\matscr{P}(3)$",
+    "question": "Si $X \\hookrightarrow \\mathscr{P}(1)$ et si $Y \\hookrightarrow \\mathscr{P}(2)$, alors $X+Y \\hookrightarrow \\mathscr{P}(3)$",
     "options": [
       "Vrai",
       "Faux"
@@ -115,4 +115,5 @@
     }
   }
 ]
+
 
