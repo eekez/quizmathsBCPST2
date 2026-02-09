@@ -54,7 +54,7 @@
       "$V(X + Y) = V(X) + V(Y)$",
       "$\\text{Cov}(X,Y) = 0$"
     ],
-    "reponse": ["$E(X + Y) = E(X) + E(Y)$","$E(XY) = E(X) E(Y)$","$V(X + Y) = V(X) + V(Y)$","$Cov(X,Y) = 0$"],
+    "reponse": ["$E(X + Y) = E(X) + E(Y)$","$E(XY) = E(X) E(Y)$","$V(X + Y) = V(X) + V(Y)$","$\\text{Cov}(X,Y) = 0$"],
     "explications_fautes": {
     }
   },
@@ -115,5 +115,6 @@
     }
   }
 ]
+
 
 
