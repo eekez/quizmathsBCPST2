@@ -1,0 +1,117 @@
+[
+   {
+    "question": "Pour déterminer les lois marginales de $X$ et $Y$ à partir de la loi du couple $(X,Y)$, on utilise :" ,
+    "options": [
+      "la formule des probabilités totales.",
+      "la formule de Bayes.",
+      "la formule des probabilités composées.",
+      "le produit de convolution."
+    ],
+    "reponse": ["la formule des probabilités totales."],
+    "explications_fautes": {
+    }
+  },
+  {
+    "question": "Soit $X$ et $Y$ deux variables aléatoires discrètes indépendantes. Alors, pour tout $k \\in \\mathbb{N}$, l'événement $(\\max(X,Y) \\leqslant k)$ peut se réécrire :",
+    "options": [
+      "$(X \\leqslant k) \\cup (Y \\leqslant k)$",
+      "$(X \\leqslant k) \\cap (Y \\leqslant k)$",
+      "$(X \\leqslant k) \\times (Y \\leqslant k)$",
+      "$(X \\leqslant k) + (Y \\leqslant k)$"
+    ],
+    "reponse":       "$(X \\leqslant k) \\cap (Y \\leqslant k)$",
+    "explications_fautes": {
+    }
+  },
+  {
+    "question": "Soit $X$ et $Y$ deux variables aléatoires discrètes indépendantes. Alors, pour tout $k \\in \\mathbb{N}$, l'événement $(\\min(X,Y) \\leqslant k)$ peut se réécrire :",
+    "options": [
+      "$(X \\leqslant k) \\cup (Y \\leqslant k)$",
+      "$(X \\leqslant k) \\cap (Y \\leqslant k)$",
+      "$(X \\leqslant k) \\times (Y \\leqslant k)$",
+      "$(X \\leqslant k) + (Y \\leqslant k)$"
+    ],
+    "reponse":       "$(X \\leqslant k) \\cup (Y \\leqslant k)$",
+    "explications_fautes": {
+    }
+  },
+  {
+    "question": "Si $X \\hookrightarrow \\matscr{P}(1)$ et si $Y \\hookrightarrow \\matscr{P}(2)$, alors $X+Y \\hookrightarrow \\matscr{P}(3)$",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "reponse": "Faux",
+    "explications_fautes": {
+      "Vrai":"Il faut que $X$ et $Y$ soient indépendantes !"
+    }
+  },
+      {
+    "question": "Si $X$ et $Y$ sont finies et indépendantes, alors :",
+    "options": [
+      "$\\E(X + Y) = \\E(X) + \\E(Y)$",
+      "$\\E(XY) = \\E(X) \\E(Y)$",
+      "$\\V(X + Y) = \\V(X) + \\V(Y)$",
+      "$\\text{Cov}(X,Y) = 0$"
+    ],
+    "reponse": ["$\\E(X + Y) = \\E(X) + \\E(Y)$","$\\E(XY) = \\E(X) \\E(Y)$","$\\V(X + Y) = \\V(X) + \\V(Y)$","$Cov(X,Y) = 0$"],
+    "explications_fautes": {
+    }
+  },
+        {
+    "question": "Si $\\text{Cov}(X,Y) = 0$, alors $X$ et $Y$ sont indépendantes.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "reponse": "Vrai",
+    "explications_fautes": {
+    }
+  },
+        {
+    "question": "De façon générale, si $X$ et $Y$ sont des variables aléatoies admettant une variance, et telles que $X + Y$ admet une variance, alors :",
+    "options": [
+      "$V(X + Y) = V(X) + V(Y)$",
+      "$V(X + Y) = V(X) + V(Y) + \\text{Cov}(X,Y)$",
+      "$V(X + Y) = V(X) + V(Y) + 2\\text{Cov}(X,Y)$",
+      "$V(X + Y) = V(X) + V(Y) + 2XY$"
+    ],
+    "reponse": "$V(X + Y) = V(X) + V(Y) + 2\\text{Cov}(X,Y)$",
+    "explications_fautes": {
+    }
+  },
+          {
+    "question": "La formule de König-Huygens permet également de calculer la covariance entre deux variables aléatoires discrètes finies.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "reponse": "Vrai",
+    "explications_fautes": {
+    }
+  },
+            {
+    "question": "Pour montrer que deux variables aléatoires finies ne sont pas indépendantes, on peut :",
+    "options": [
+      "chercher des 0 dans le tableau de la loi conjointe.",
+      "montrer qu'elles sont corrélées.",
+      "déterminer la loi de leur somme.",
+      "utiliser le théorème de transfert."
+    ],
+    "reponse": ["chercher des 0 dans le tableau de la loi conjointe.","montrer qu'elles sont corrélées."],
+    "explications_fautes": {
+    }
+  },
+              {
+  "question": "Quelle formule est juste ?",
+    "options": [
+     "$\\text{Cov}(X,Y) = - \\text{Cov}(Y,X)$",
+     "$\\text{Cov}(X + W,Y+Z) = \\text{Cov}(X,Y) +  \\text{Cov}(W,Z)$",
+     "$\\text{Cov}(X,X) = \\V(X)$",
+     "$\\text{Cov}(X,X) = 0$ pour toute variable aléatoire $X$",
+    ],
+    "reponse": "$\\text{Cov}(X,X) = \\V(X)$",
+    "explications_fautes": {
+    }
+  }
+]
