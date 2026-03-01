@@ -84,7 +84,7 @@
       "si les $X_i$ admettent un moment d'ordre 1.",
       "si les $X_i$ admettent un moment d'ordre 2."
     ],
-    "reponse": "Vrai",
+    "reponse": "la valeur exacte de l'écart-type des $X_i$.",
     "explications_fautes": {
     }
   },
@@ -111,5 +111,6 @@
     }
   }
 ]
+
 
 
