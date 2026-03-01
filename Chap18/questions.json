@@ -2,12 +2,12 @@
    {
     "question": "Quelle est l'inégalité de Markov ?" ,
     "options": [
-      "$\\mathbb{P}(X \\leqslant a) \\geqslant \\dfrac{1}{a} \\mathbb{E}(X)",
-      "\\mathbb{P}(X \\geqslant a) \\leqslant \\dfrac{1}{a} \\V(X)",
-      "\\mathbb{P}(X - \\mathbb{E \\geqslant a) \\leqslant \\dfrac{1}{a} \\mathbb{E}(X)",
-      "\\mathbb{P}(X \\geqslant a) \\leqslant \\dfrac{1}{a} \\mathbb{E}(X)"
+      "$\\mathbb{P}(X \\leqslant a) \\geqslant \\dfrac{1}{a} \\mathbb{E}(X)$",
+      "$\\mathbb{P}(X \\geqslant a) \\leqslant \\dfrac{1}{a} \\V(X)$",
+      "$\\mathbb{P}(X - \\mathbb{E \\geqslant a) \\leqslant \\dfrac{1}{a} \\mathbb{E}(X)$",
+      "$\\mathbb{P}(X \\geqslant a) \\leqslant \\dfrac{1}{a} \\mathbb{E}(X)$"
     ],
-    "reponse": ["\\mathbb{P}(X \\geqslant a) \\leqslant \\dfrac{1}{a} \\mathbb{E}(X)"],
+    "reponse": ["$\\mathbb{P}(X \\geqslant a) \\leqslant \\dfrac{1}{a} \\mathbb{E}(X)$"],
     "explications_fautes": {
     }
   },
@@ -111,3 +111,4 @@
     }
   }
 ]
+
