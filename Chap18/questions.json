@@ -47,7 +47,7 @@
     }
   },
       {
-    "question": "Le théorème central limite ne s'applique qu'aux suites de variables aléatoires réelles à densite.",
+    "question": "Le théorème central limite ne s'applique qu'aux suites de variables aléatoires réelles à densité.",
     "options": [
       "Vrai",
       "Faux"
@@ -111,6 +111,7 @@
     }
   }
 ]
+
 
 
 
