@@ -1,0 +1,113 @@
+[
+   {
+    "question": "Quelle est l'inégalité de Markov ?" ,
+    "options": [
+      "$\\mathbb{P}(X \\leqslant a) \\geqslant \\dfrac{1}{a} \\mathbb{E}(X)",
+      "\\mathbb{P}(X \\geqslant a) \\leqslant \\dfrac{1}{a} \\V(X)",
+      "\\mathbb{P}(X - \\mathbb{E \\geqslant a) \\leqslant \\dfrac{1}{a} \\mathbb{E}(X)",
+      "\\mathbb{P}(X \\geqslant a) \\leqslant \\dfrac{1}{a} \\mathbb{E}(X)"
+    ],
+    "reponse": ["\\mathbb{P}(X \\geqslant a) \\leqslant \\dfrac{1}{a} \\mathbb{E}(X)"],
+    "explications_fautes": {
+    }
+  },
+  {
+    "question": "Quelle est l'inégalité de Bienaymé-Tchebychev ?",
+    "options": [
+      "$\\mathbb{P}(|X| \\geqslant \\varepsilon) \\leqslant \\dfrac{1}{\\varepsilon^2} V(X)$",
+      "$\\mathbb{P}(|X - \\mathbb{E}(X)| \\leqslant \\varepsilon) \\geqslant \\dfrac{1}{\\varepsilon^2} V(X)$",
+      "$\\mathbb{P}(|X - \\mathbb{E}(X)| \\geqslant \\varepsilon) \\leqslant \\dfrac{1}{\\varepsilon^2} V(X)$",
+      "$\\mathbb{P}(|X - \\mathbb{E}(X)| \\geqslant \\varepsilon) \\leqslant \\dfrac{1}{\\varepsilon} V(X)$"
+    ],
+    "reponse":       "$\\mathbb{P}(|X - \\mathbb{E}(X)| \\geqslant \\varepsilon) \\leqslant \\dfrac{1}{\\varepsilon^2} V(X)$",
+    "explications_fautes": {
+    }
+  },
+  {
+    "question": "Comment approche-t-on une espérance d'une variable aléatoire $X$ par simulation en informatique ?",
+    "options": [
+      "On simule plusieurs fois $X$ et on détermine la fréquence de 0 dans la liste des résultats obtenus.",
+      "On simule plusieurs fois $X$ et on détermine la moyenne des résultats obtenus.",
+      "On simule plusieurs fois $X$ et on utilise la formule de König-Huygens.",
+      "On simule une fois $X$ et prend la valeur obtenue."
+    ],
+    "reponse":       "On simule plusieurs fois $X$ et on détermine la moyenne des résultats obtenus.",
+    "explications_fautes": {
+    }
+  },
+  {
+    "question": "Sous certaines hypothèses, une loi de Poisson converge, en loi, vers une loi binomiale.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "reponse": "Faux",
+    "explications_fautes": {
+      "Vrai":"C'est l'inverse."
+    }
+  },
+      {
+    "question": "Le théorème central limite ne s'applique qu'aux suites de variables aléatoires réelles à densite.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "reponse": "Faux",
+    "explications_fautes": {
+    }
+  },
+        {
+    "question": "Sous certaines hypothèses, une loi Binomiale converge, en loi, vers une loi normale.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "reponse": "Vrai",
+    "explications_fautes": {
+    }
+  },
+        {
+    "question": "Le théorème de Moivre-Laplace est en fait un cas particulier du théorème central limite.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "reponse": "Vrai",
+    "explications_fautes": {
+    }
+  },
+          {
+    "question": "On peut utiliser la seconde forme du théorème central limite même quand on ne sait pas :",
+    "options": [
+      "la valeur exacte de l'écart-type des $X_i$.",
+      "la valeur exacte de l'espérance des $X_i$.",
+      "si les $X_i$ admettent un moment d'ordre 1.",
+      "si les $X_i$ admettent un moment d'ordre 2."
+    ],
+    "reponse": "Vrai",
+    "explications_fautes": {
+    }
+  },
+            {
+    "question": "Soit $(X_i)$ une suite iid de variables aléatoires, suivant la même loi, despérance $\\mu$.Alors d'après la loi des grands nombres,",
+    "options": [
+      "$\\lim\\limits_{n \\to + \\infty} \\mathbb{P}(M_n - \\mu \\geqslant 2) = 0",
+      "$\\lim\\limits_{n \\to + \\infty} \\mathbb{P}(|M_n - \\mu| \\geqslant 2) = 0",
+      "$\\lim\\limits_{n \\to + \\infty} \\mathbb{P}(|M_n - \\mu| \\leqslant 2) = 0",
+      "$\\lim\\limits_{n \\to + \\infty} \\mathbb{P}(|M_n - \\mu| \\geqslant 0) = 2"
+    ],
+    "reponse": ["$\\lim\\limits_{n \\to + \\infty} \\mathbb{P}(|M_n - \\mu| \\geqslant 2) = 0"],
+    "explications_fautes": {
+    }
+  },
+              {
+  "question": "Si une variable aléatoire discrète converge en loi, c'est forcément vers une variable aléatoire discrète également.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "reponse": "Faux",
+    "explications_fautes": {
+    }
+  }
+]
