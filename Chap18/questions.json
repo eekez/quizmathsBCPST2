@@ -89,14 +89,14 @@
     }
   },
             {
-    "question": "Soit $(X_i)$ une suite iid de variables aléatoires, suivant la même loi, despérance $\\mu$.Alors d'après la loi des grands nombres,",
+    "question": "Soit $(X_i)$ une suite iid de variables aléatoires, suivant la même loi, despérance $\\mu$. Alors d'après la loi des grands nombres,",
     "options": [
-      "$\\lim\\limits_{n \\to + \\infty} \\mathbb{P}(M_n - \\mu \\geqslant 2) = 0",
-      "$\\lim\\limits_{n \\to + \\infty} \\mathbb{P}(|M_n - \\mu| \\geqslant 2) = 0",
-      "$\\lim\\limits_{n \\to + \\infty} \\mathbb{P}(|M_n - \\mu| \\leqslant 2) = 0",
-      "$\\lim\\limits_{n \\to + \\infty} \\mathbb{P}(|M_n - \\mu| \\geqslant 0) = 2"
+      "$\\lim\\limits_{n \\to + \\infty} \\mathbb{P}(M_n - \\mu \\geqslant 2) = 0$",
+      "$\\lim\\limits_{n \\to + \\infty} \\mathbb{P}(|M_n - \\mu| \\geqslant 2) = 0$",
+      "$\\lim\\limits_{n \\to + \\infty} \\mathbb{P}(|M_n - \\mu| \\leqslant 2) = 0$",
+      "$\\lim\\limits_{n \\to + \\infty} \\mathbb{P}(|M_n - \\mu| \\geqslant 0) = 2$"
     ],
-    "reponse": ["$\\lim\\limits_{n \\to + \\infty} \\mathbb{P}(|M_n - \\mu| \\geqslant 2) = 0"],
+    "reponse": ["$\\lim\\limits_{n \\to + \\infty} \\mathbb{P}(|M_n - \\mu| \\geqslant 2) = 0$"],
     "explications_fautes": {
     }
   },
